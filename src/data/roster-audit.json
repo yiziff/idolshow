@@ -1,0 +1,252 @@
+[
+  {
+    "id": "nine-percent",
+    "name": "NINE PERCENT",
+    "ok": true,
+    "itunesArtistId": "1484644927",
+    "itunesArtistName": "Lil Ghost小鬼",
+    "songs": 25,
+    "previews": 25,
+    "score": 0
+  },
+  {
+    "id": "next",
+    "name": "NEXT",
+    "ok": true,
+    "itunesArtistId": "14478",
+    "itunesArtistName": "Next",
+    "songs": 45,
+    "previews": 45,
+    "score": 100
+  },
+  {
+    "id": "oner",
+    "name": "ONER",
+    "ok": true,
+    "itunesArtistId": "1705924068",
+    "itunesArtistName": "ONER",
+    "songs": 50,
+    "previews": 50,
+    "score": 100
+  },
+  {
+    "id": "uniq",
+    "name": "UNIQ",
+    "ok": true,
+    "itunesArtistId": "259162091",
+    "itunesArtistName": "Uniq",
+    "songs": 29,
+    "previews": 29,
+    "score": 100
+  },
+  {
+    "id": "tfboys",
+    "name": "TFBOYS",
+    "ok": true,
+    "itunesArtistId": "1882569220",
+    "itunesArtistName": "TFBOYS",
+    "songs": 50,
+    "previews": 50,
+    "score": 100
+  },
+  {
+    "id": "teens-in-times",
+    "name": "时代少年团",
+    "ok": true,
+    "itunesArtistId": "1007996749",
+    "itunesArtistName": "The Lemon Twigs",
+    "songs": 50,
+    "previews": 50,
+    "score": 0
+  },
+  {
+    "id": "rocket-girls",
+    "name": "火箭少女101",
+    "ok": true,
+    "itunesArtistId": "1705916766",
+    "itunesArtistName": "火箭少女101",
+    "songs": 8,
+    "previews": 8,
+    "score": 100
+  },
+  {
+    "id": "r1se",
+    "name": "R1SE",
+    "ok": true,
+    "itunesArtistId": "1601382653",
+    "itunesArtistName": "R1SE",
+    "songs": 8,
+    "previews": 8,
+    "score": 100
+  },
+  {
+    "id": "the9",
+    "name": "THE9",
+    "ok": true,
+    "itunesArtistId": "1499735008",
+    "itunesArtistName": "The 9ine",
+    "songs": 50,
+    "previews": 50,
+    "score": 80
+  },
+  {
+    "id": "into1",
+    "name": "INTO1",
+    "ok": true,
+    "itunesArtistId": "1500272115",
+    "itunesArtistName": "JO1",
+    "songs": 50,
+    "previews": 50,
+    "score": 20
+  },
+  {
+    "id": "cai-xukun",
+    "name": "蔡徐坤",
+    "ok": true,
+    "itunesArtistId": "216635866",
+    "itunesArtistName": "林俊傑",
+    "songs": 50,
+    "previews": 50,
+    "score": 0
+  },
+  {
+    "id": "chen-linong",
+    "name": "陈立农",
+    "ok": true,
+    "itunesArtistId": "1401937900",
+    "itunesArtistName": "陳立農",
+    "songs": 38,
+    "previews": 38,
+    "score": 0
+  },
+  {
+    "id": "fan-chengcheng",
+    "name": "范丞丞",
+    "ok": true,
+    "itunesArtistId": "1446253578",
+    "itunesArtistName": "范丞丞",
+    "songs": 31,
+    "previews": 31,
+    "score": 100
+  },
+  {
+    "id": "zhu-zhengting",
+    "name": "朱正廷",
+    "ok": true,
+    "itunesArtistId": "1378887586",
+    "itunesArtistName": "i-dle",
+    "songs": 50,
+    "previews": 50,
+    "score": 0
+  },
+  {
+    "id": "justin",
+    "name": "黄明昊",
+    "ok": true,
+    "itunesArtistId": "1586072269",
+    "itunesArtistName": "黄明昊Justin",
+    "songs": 30,
+    "previews": 30,
+    "score": 80
+  },
+  {
+    "id": "lin-yanjun",
+    "name": "林彦俊",
+    "ok": true,
+    "itunesArtistId": "1477493154",
+    "itunesArtistName": "Evan Lin",
+    "songs": 22,
+    "previews": 22,
+    "score": 80
+  },
+  {
+    "id": "wang-zi-yi",
+    "name": "王子异",
+    "ok": true,
+    "itunesArtistId": "1492791812",
+    "itunesArtistName": "王子异",
+    "songs": 47,
+    "previews": 47,
+    "score": 100
+  },
+  {
+    "id": "wang-lingkai",
+    "name": "小鬼",
+    "ok": true,
+    "itunesArtistId": "1862397213",
+    "itunesArtistName": "小鬼原音",
+    "songs": 40,
+    "previews": 40,
+    "score": 80
+  },
+  {
+    "id": "you-zhangjing",
+    "name": "尤长靖",
+    "ok": true,
+    "itunesArtistId": "1404251243",
+    "itunesArtistName": "尤长靖",
+    "songs": 29,
+    "previews": 29,
+    "score": 100
+  },
+  {
+    "id": "zhu-xingjie",
+    "name": "朱星杰",
+    "ok": true,
+    "itunesArtistId": "1525371606",
+    "itunesArtistName": "朱星杰",
+    "songs": 28,
+    "previews": 28,
+    "score": 100
+  },
+  {
+    "id": "bi-wenjun",
+    "name": "毕雯珺",
+    "ok": true,
+    "itunesArtistId": "1446844905",
+    "itunesArtistName": "畢雯珺",
+    "songs": 29,
+    "previews": 29,
+    "score": 0
+  },
+  {
+    "id": "li-xikan",
+    "name": "李希侃",
+    "ok": true,
+    "itunesArtistId": "1742165514",
+    "itunesArtistName": "李希侃SayKan",
+    "songs": 10,
+    "previews": 10,
+    "score": 80
+  },
+  {
+    "id": "zhang-yixing",
+    "name": "张艺兴",
+    "ok": true,
+    "itunesArtistId": "1590349657",
+    "itunesArtistName": "Lay",
+    "songs": 50,
+    "previews": 50,
+    "score": 0
+  },
+  {
+    "id": "lu-han",
+    "name": "鹿晗",
+    "ok": true,
+    "itunesArtistId": "117741179",
+    "itunesArtistName": "王力宏",
+    "songs": 50,
+    "previews": 50,
+    "score": 0
+  },
+  {
+    "id": "yi-yangqianxi",
+    "name": "易烊千玺",
+    "ok": true,
+    "itunesArtistId": "1884821098",
+    "itunesArtistName": "易烊千玺",
+    "songs": 50,
+    "previews": 50,
+    "score": 100
+  }
+]

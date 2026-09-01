@@ -1,0 +1,458 @@
+{
+  "updatedAt": "2026-09-01T10:23:42.812Z",
+  "api": "https://heipaclub.com/api/netease",
+  "byId": {
+    "nine-percent": {
+      "id": "nine-percent",
+      "name": "NINE PERCENT",
+      "neteaseArtistId": 15021166,
+      "neteaseName": "NINE PERCENT",
+      "fans": 432422,
+      "avatar": "",
+      "ok": true
+    },
+    "next": {
+      "id": "next",
+      "name": "NEXT",
+      "neteaseArtistId": 15021290,
+      "neteaseName": "NEXT",
+      "fans": 426838,
+      "avatar": "",
+      "ok": true
+    },
+    "oner": {
+      "id": "oner",
+      "name": "ONER",
+      "neteaseArtistId": 29148386,
+      "neteaseName": "ONER",
+      "fans": 430300,
+      "avatar": "",
+      "ok": true
+    },
+    "uniq": {
+      "id": "uniq",
+      "name": "UNIQ",
+      "neteaseArtistId": 1015121,
+      "neteaseName": "UNIQ",
+      "fans": 164798,
+      "avatar": "https://p4.music.126.net/maB8PCgJquWbkM38gq11Xw==/109951165662496308.jpg?param=400y400",
+      "ok": true
+    },
+    "tfboys": {
+      "id": "tfboys",
+      "name": "TFBOYS",
+      "neteaseArtistId": 827728,
+      "neteaseName": "TFBOYS",
+      "fans": 2367117,
+      "avatar": "https://p4.music.126.net/Jkuea6ZteZ2FAsPJidDkFg==/109951164153930795.jpg?param=400y400",
+      "ok": true
+    },
+    "teens-in-times": {
+      "id": "teens-in-times",
+      "name": "时代少年团",
+      "neteaseArtistId": 33806754,
+      "neteaseName": "时代少年团",
+      "fans": 1693012,
+      "avatar": "https://p3.music.126.net/zfX5bzdzPBSflfDMA2o0TA==/109951173207132556.jpg?param=400y400",
+      "ok": true
+    },
+    "rocket-girls": {
+      "id": "rocket-girls",
+      "name": "火箭少女101",
+      "neteaseArtistId": 27693474,
+      "neteaseName": "火箭少女101",
+      "fans": 135439,
+      "avatar": "https://p3.music.126.net/CU9J3WupAumPHKmXlQhl6w==/109951165525124284.jpg?param=400y400",
+      "ok": true
+    },
+    "r1se": {
+      "id": "r1se",
+      "name": "R1SE",
+      "neteaseArtistId": 32508014,
+      "neteaseName": "R1SE",
+      "fans": 210039,
+      "avatar": "https://p4.music.126.net/uKUdRshvT5EXBc-1pREXmw==/109951164614260824.jpg?param=400y400",
+      "ok": true
+    },
+    "the9": {
+      "id": "the9",
+      "name": "THE9",
+      "neteaseArtistId": 35497806,
+      "neteaseName": "THE9",
+      "fans": 49945,
+      "avatar": "https://p4.music.126.net/BmqeHjEz27ot4Pa99axu-A==/109951165117416129.jpg?param=400y400",
+      "ok": true
+    },
+    "into1": {
+      "id": "into1",
+      "name": "INTO1",
+      "neteaseArtistId": 47715166,
+      "neteaseName": "INTO1",
+      "fans": 24746,
+      "avatar": "https://p3.music.126.net/89L_ulAO-YM6qTezNzFvPA==/109951165924043806.jpg?param=400y400",
+      "ok": true
+    },
+    "cai-xukun": {
+      "id": "cai-xukun",
+      "name": "蔡徐坤",
+      "neteaseArtistId": 12932368,
+      "neteaseName": "蔡徐坤",
+      "fans": 3622880,
+      "avatar": "https://p3.music.126.net/qZeeUfTkKg8UrdfKoNKx9Q==/109951172633386235.jpg?param=400y400",
+      "ok": true
+    },
+    "chen-linong": {
+      "id": "chen-linong",
+      "name": "陈立农",
+      "neteaseArtistId": 13056440,
+      "neteaseName": "陈立农",
+      "fans": 624357,
+      "avatar": "https://p4.music.126.net/SDasrxlSYSLuN_26rdgfCA==/109951169866564901.jpg?param=400y400",
+      "ok": true
+    },
+    "fan-chengcheng": {
+      "id": "fan-chengcheng",
+      "name": "范丞丞",
+      "neteaseArtistId": 13056442,
+      "neteaseName": "范丞丞",
+      "fans": 911460,
+      "avatar": "https://p3.music.126.net/rffjraPrmcZ7IS2O86p2xQ==/109951166516356327.jpg?param=400y400",
+      "ok": true
+    },
+    "zhu-zhengting": {
+      "id": "zhu-zhengting",
+      "name": "朱正廷",
+      "neteaseArtistId": 13057513,
+      "neteaseName": "朱正廷",
+      "fans": 320784,
+      "avatar": "https://p3.music.126.net/iyWCeL1z0WZyxpb_fUBBOw==/109951169569700768.jpg?param=400y400",
+      "ok": true
+    },
+    "justin": {
+      "id": "justin",
+      "name": "黄明昊",
+      "neteaseArtistId": 13057497,
+      "neteaseName": "黄明昊 (Justin)",
+      "fans": 573029,
+      "avatar": "https://p3.music.126.net/vM4Kzs_WgAzoRzm3JWkZWQ==/109951165196795354.jpg?param=400y400",
+      "ok": true
+    },
+    "lin-yanjun": {
+      "id": "lin-yanjun",
+      "name": "林彦俊",
+      "neteaseArtistId": 13058498,
+      "neteaseName": "林彦俊",
+      "fans": 281969,
+      "avatar": "https://p3.music.126.net/9RzNUx2kcQxINDXbwJLx_A==/109951167250668028.jpg?param=400y400",
+      "ok": true
+    },
+    "wang-zi-yi": {
+      "id": "wang-zi-yi",
+      "name": "王子异",
+      "neteaseArtistId": 13058502,
+      "neteaseName": "王子异",
+      "fans": 144336,
+      "avatar": "https://p4.music.126.net/4btzIXIpWyH6JDnHhsUwcQ==/109951169367588860.jpg?param=400y400",
+      "ok": true
+    },
+    "wang-lingkai": {
+      "id": "wang-lingkai",
+      "name": "小鬼",
+      "neteaseArtistId": 12493781,
+      "neteaseName": "Ghost (王琳凯)",
+      "fans": 2399030,
+      "avatar": "https://p4.music.126.net/H7YgpH3Lt4b7IwjTde7dMQ==/109951173027916242.jpg?param=400y400",
+      "ok": true
+    },
+    "you-zhangjing": {
+      "id": "you-zhangjing",
+      "name": "尤长靖",
+      "neteaseArtistId": 13058503,
+      "neteaseName": "尤长靖",
+      "fans": 1172741,
+      "avatar": "https://p3.music.126.net/eA7I9rAUBYZzXfaEaOhNiw==/109951172034142141.jpg?param=400y400",
+      "ok": true
+    },
+    "zhu-xingjie": {
+      "id": "zhu-xingjie",
+      "name": "朱星杰",
+      "neteaseArtistId": 12120150,
+      "neteaseName": "朱星杰",
+      "fans": 446649,
+      "avatar": "https://p4.music.126.net/-6HsdpJN3pUS3bhtDOm4mw==/109951166109778313.jpg?param=400y400",
+      "ok": true
+    },
+    "bi-wenjun": {
+      "id": "bi-wenjun",
+      "name": "毕雯珺",
+      "neteaseArtistId": 13058487,
+      "neteaseName": "毕雯珺",
+      "fans": 147092,
+      "avatar": "https://p4.music.126.net/raO4qO-CLeuK52UGRxbTeQ==/109951164501382511.jpg?param=400y400",
+      "ok": true
+    },
+    "li-xikan": {
+      "id": "li-xikan",
+      "name": "李希侃",
+      "neteaseArtistId": 13057676,
+      "neteaseName": "李希侃",
+      "fans": 42711,
+      "avatar": "https://p4.music.126.net/WLMRFhjDTdLqVdzuCBp2jA==/109951167844701412.jpg?param=400y400",
+      "ok": true
+    },
+    "zhang-yixing": {
+      "id": "zhang-yixing",
+      "name": "张艺兴",
+      "neteaseArtistId": 1047015,
+      "neteaseName": "张艺兴",
+      "fans": 1083446,
+      "avatar": "https://p4.music.126.net/_Akf4ptADF0vwoCPvoOw8Q==/109951172494556946.jpg?param=400y400",
+      "ok": true
+    },
+    "lu-han": {
+      "id": "lu-han",
+      "name": "鹿晗",
+      "neteaseArtistId": 1038093,
+      "neteaseName": "鹿晗",
+      "fans": 2065090,
+      "avatar": "https://p4.music.126.net/LO2LCgzpklbspO2ymaSGfg==/109951166670185478.jpg?param=400y400",
+      "ok": true
+    },
+    "yi-yangqianxi": {
+      "id": "yi-yangqianxi",
+      "name": "易烊千玺",
+      "neteaseArtistId": 939088,
+      "neteaseName": "易烊千玺",
+      "fans": 2065056,
+      "avatar": "https://p4.music.126.net/7OH6gPPtU5M4ydsgczGkBA==/109951172378626831.jpg?param=400y400",
+      "ok": true
+    }
+  },
+  "audit": [
+    {
+      "id": "nine-percent",
+      "name": "NINE PERCENT",
+      "neteaseArtistId": 15021166,
+      "neteaseName": "NINE PERCENT",
+      "fans": 432422,
+      "avatar": "",
+      "ok": true
+    },
+    {
+      "id": "next",
+      "name": "NEXT",
+      "neteaseArtistId": 15021290,
+      "neteaseName": "NEXT",
+      "fans": 426838,
+      "avatar": "",
+      "ok": true
+    },
+    {
+      "id": "oner",
+      "name": "ONER",
+      "neteaseArtistId": 29148386,
+      "neteaseName": "ONER",
+      "fans": 430300,
+      "avatar": "",
+      "ok": true
+    },
+    {
+      "id": "uniq",
+      "name": "UNIQ",
+      "neteaseArtistId": 1015121,
+      "neteaseName": "UNIQ",
+      "fans": 164798,
+      "avatar": "https://p4.music.126.net/maB8PCgJquWbkM38gq11Xw==/109951165662496308.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "tfboys",
+      "name": "TFBOYS",
+      "neteaseArtistId": 827728,
+      "neteaseName": "TFBOYS",
+      "fans": 2367117,
+      "avatar": "https://p4.music.126.net/Jkuea6ZteZ2FAsPJidDkFg==/109951164153930795.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "teens-in-times",
+      "name": "时代少年团",
+      "neteaseArtistId": 33806754,
+      "neteaseName": "时代少年团",
+      "fans": 1693012,
+      "avatar": "https://p3.music.126.net/zfX5bzdzPBSflfDMA2o0TA==/109951173207132556.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "rocket-girls",
+      "name": "火箭少女101",
+      "neteaseArtistId": 27693474,
+      "neteaseName": "火箭少女101",
+      "fans": 135439,
+      "avatar": "https://p3.music.126.net/CU9J3WupAumPHKmXlQhl6w==/109951165525124284.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "r1se",
+      "name": "R1SE",
+      "neteaseArtistId": 32508014,
+      "neteaseName": "R1SE",
+      "fans": 210039,
+      "avatar": "https://p4.music.126.net/uKUdRshvT5EXBc-1pREXmw==/109951164614260824.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "the9",
+      "name": "THE9",
+      "neteaseArtistId": 35497806,
+      "neteaseName": "THE9",
+      "fans": 49945,
+      "avatar": "https://p4.music.126.net/BmqeHjEz27ot4Pa99axu-A==/109951165117416129.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "into1",
+      "name": "INTO1",
+      "neteaseArtistId": 47715166,
+      "neteaseName": "INTO1",
+      "fans": 24746,
+      "avatar": "https://p3.music.126.net/89L_ulAO-YM6qTezNzFvPA==/109951165924043806.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "cai-xukun",
+      "name": "蔡徐坤",
+      "neteaseArtistId": 12932368,
+      "neteaseName": "蔡徐坤",
+      "fans": 3622880,
+      "avatar": "https://p3.music.126.net/qZeeUfTkKg8UrdfKoNKx9Q==/109951172633386235.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "chen-linong",
+      "name": "陈立农",
+      "neteaseArtistId": 13056440,
+      "neteaseName": "陈立农",
+      "fans": 624357,
+      "avatar": "https://p4.music.126.net/SDasrxlSYSLuN_26rdgfCA==/109951169866564901.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "fan-chengcheng",
+      "name": "范丞丞",
+      "neteaseArtistId": 13056442,
+      "neteaseName": "范丞丞",
+      "fans": 911460,
+      "avatar": "https://p3.music.126.net/rffjraPrmcZ7IS2O86p2xQ==/109951166516356327.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "zhu-zhengting",
+      "name": "朱正廷",
+      "neteaseArtistId": 13057513,
+      "neteaseName": "朱正廷",
+      "fans": 320784,
+      "avatar": "https://p3.music.126.net/iyWCeL1z0WZyxpb_fUBBOw==/109951169569700768.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "justin",
+      "name": "黄明昊",
+      "neteaseArtistId": 13057497,
+      "neteaseName": "黄明昊 (Justin)",
+      "fans": 573029,
+      "avatar": "https://p3.music.126.net/vM4Kzs_WgAzoRzm3JWkZWQ==/109951165196795354.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "lin-yanjun",
+      "name": "林彦俊",
+      "neteaseArtistId": 13058498,
+      "neteaseName": "林彦俊",
+      "fans": 281969,
+      "avatar": "https://p3.music.126.net/9RzNUx2kcQxINDXbwJLx_A==/109951167250668028.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "wang-zi-yi",
+      "name": "王子异",
+      "neteaseArtistId": 13058502,
+      "neteaseName": "王子异",
+      "fans": 144336,
+      "avatar": "https://p4.music.126.net/4btzIXIpWyH6JDnHhsUwcQ==/109951169367588860.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "wang-lingkai",
+      "name": "小鬼",
+      "neteaseArtistId": 12493781,
+      "neteaseName": "Ghost (王琳凯)",
+      "fans": 2399030,
+      "avatar": "https://p4.music.126.net/H7YgpH3Lt4b7IwjTde7dMQ==/109951173027916242.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "you-zhangjing",
+      "name": "尤长靖",
+      "neteaseArtistId": 13058503,
+      "neteaseName": "尤长靖",
+      "fans": 1172741,
+      "avatar": "https://p3.music.126.net/eA7I9rAUBYZzXfaEaOhNiw==/109951172034142141.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "zhu-xingjie",
+      "name": "朱星杰",
+      "neteaseArtistId": 12120150,
+      "neteaseName": "朱星杰",
+      "fans": 446649,
+      "avatar": "https://p4.music.126.net/-6HsdpJN3pUS3bhtDOm4mw==/109951166109778313.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "bi-wenjun",
+      "name": "毕雯珺",
+      "neteaseArtistId": 13058487,
+      "neteaseName": "毕雯珺",
+      "fans": 147092,
+      "avatar": "https://p4.music.126.net/raO4qO-CLeuK52UGRxbTeQ==/109951164501382511.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "li-xikan",
+      "name": "李希侃",
+      "neteaseArtistId": 13057676,
+      "neteaseName": "李希侃",
+      "fans": 42711,
+      "avatar": "https://p4.music.126.net/WLMRFhjDTdLqVdzuCBp2jA==/109951167844701412.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "zhang-yixing",
+      "name": "张艺兴",
+      "neteaseArtistId": 1047015,
+      "neteaseName": "张艺兴",
+      "fans": 1083446,
+      "avatar": "https://p4.music.126.net/_Akf4ptADF0vwoCPvoOw8Q==/109951172494556946.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "lu-han",
+      "name": "鹿晗",
+      "neteaseArtistId": 1038093,
+      "neteaseName": "鹿晗",
+      "fans": 2065090,
+      "avatar": "https://p4.music.126.net/LO2LCgzpklbspO2ymaSGfg==/109951166670185478.jpg?param=400y400",
+      "ok": true
+    },
+    {
+      "id": "yi-yangqianxi",
+      "name": "易烊千玺",
+      "neteaseArtistId": 939088,
+      "neteaseName": "易烊千玺",
+      "fans": 2065056,
+      "avatar": "https://p4.music.126.net/7OH6gPPtU5M4ydsgczGkBA==/109951172378626831.jpg?param=400y400",
+      "ok": true
+    }
+  ]
+}

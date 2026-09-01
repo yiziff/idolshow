@@ -1,0 +1,26 @@
+{
+  "name": "idolshow",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "rank:dev": "node scripts/rank-local.mjs",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
+    "roster:build": "node scripts/build-itunes-roster.mjs",
+    "fans:fetch": "node scripts/enrich-netease-fans.mjs",
+    "fans:merge": "node scripts/merge-netease-fans.mjs",
+    "hot-tops:build": "node scripts/build-hot-tops.mjs",
+    "roster": "npm run fans:fetch && npm run fans:merge && npm run hot-tops:build",
+    "stages:build": "node scripts/build-itunes-stages.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.47.0",
+    "vite": "^6.3.5",
+    "wrangler": "^4.114.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}

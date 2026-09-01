@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="??">
+  <rect width="32" height="32" rx="7" fill="#111110"/>
+  <text
+    x="16"
+    y="22.5"
+    text-anchor="middle"
+    font-family="Noto Sans SC, PingFang SC, Microsoft YaHei, sans-serif"
+    font-size="18"
+    font-weight="900"
+    fill="#b8ff1a"
+  >?</text>
+</svg>
