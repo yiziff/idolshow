@@ -16,13 +16,11 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (p) => p.replace(/^\/api\/itunes/, ""),
       },
+      // Fallback only — with run_worker_first, Worker + .dev.vars NETEASE_API_ORIGIN wins
       "/api/netease": {
-        target: process.env.NETEASE_PROXY || "https://heipaclub.com",
+        target: process.env.NETEASE_PROXY || "http://127.0.0.1:3000",
         changeOrigin: true,
-        rewrite: (p) =>
-          (process.env.NETEASE_PROXY || "https://heipaclub.com").includes("heipaclub.com")
-            ? p
-            : p.replace(/^\/api\/netease/, ""),
+        rewrite: (p) => p.replace(/^\/api\/netease/, ""),
       },
     },
   },

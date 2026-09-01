@@ -18,8 +18,17 @@ function shuffle(arr) {
 export function stagesToPkSongs(stages) {
   return stages.map((s) => {
     const displayTitle = s.subtitle ? `${s.title} · ${s.subtitle}` : s.title;
+    const neteaseId = s.neteaseId ? String(s.neteaseId) : "";
+    const previewUrl = s.previewUrl || "";
+    let playSource = s.playSource || "";
+    if (!playSource) {
+      if (previewUrl) playSource = "itunes";
+      else if (neteaseId) playSource = "netease";
+      else playSource = "none";
+    }
     return {
       id: s.id,
+      neteaseId: neteaseId || null,
       title: displayTitle,
       artist: (s.performers || []).join(" · "),
       album: s.chapterLabel || "",
@@ -27,8 +36,8 @@ export function stagesToPkSongs(stages) {
       year: "2018",
       cover: s.cover || "",
       coverSm: s.coverSm || s.cover || "",
-      previewUrl: s.previewUrl || "",
-      playSource: s.playSource || (s.previewUrl ? "itunes" : "none"),
+      previewUrl,
+      playSource,
       itunesTrackId: s.itunesTrackId || "",
       trackViewUrl: s.trackViewUrl || "",
       chapter: s.chapter,

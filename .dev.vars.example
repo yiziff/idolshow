@@ -1,0 +1,4 @@
+# Local only — copy to .dev.vars (gitignored)
+# Start api-enhanced on :3000 first: cd ../api-enhanced && npm start
+NETEASE_API_ORIGIN=http://127.0.0.1:3000
+# Optional: NETEASE_COOKIE=MUSIC_U=...  (some tracks need login for play URL)

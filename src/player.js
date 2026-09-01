@@ -1,12 +1,11 @@
 /**
- * Hybrid player: iTunes preview first, NetEase fallback — both capped at 30s.
+ * Hybrid player: ALWAYS try iTunes first, NetEase only as fallback.
+ * Aligned with cn-rap-cup / heipaclub.
  */
 
 import { IMAGE_SIZES, optimizedImageUrl } from "./artwork.js";
 import { neteaseSongPage, songPlayUrl } from "./netease.js";
 import { resolvePlaySource } from "./itunes.js";
-
-const PREVIEW_SEC = 30;
 
 function fmt(sec) {
   if (!Number.isFinite(sec) || sec < 0) return "0:00";
@@ -15,8 +14,11 @@ function fmt(sec) {
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
-function sourceLabel() {
-  return "试听 · 约 30 秒";
+function sourceLabel(song) {
+  if (song?.playSource === "itunes" || (song?.previewUrl && song?.playSource !== "netease")) {
+    return "试听 · 约 30 秒";
+  }
+  return "试听";
 }
 
 export function createPlayer(root) {
@@ -58,13 +60,12 @@ export function createPlayer(root) {
   let current = null;
   let lastLoadOpts = {};
   let seeking = false;
+  /** Bump to cancel in-flight load()/play() after stop or newer load. */
   let loadSeq = 0;
-  let previewCapped = false;
 
   function hardStopAudio() {
     audio.pause();
     audio.removeAttribute("src");
-    previewCapped = false;
     try {
       audio.load();
     } catch {
@@ -80,7 +81,7 @@ export function createPlayer(root) {
   function paintMeta(song) {
     title.textContent = song.title || "未知曲目";
     const meta = [song.artist, song.album || song.collection].filter(Boolean).join(" · ");
-    sub.textContent = [meta, sourceLabel()].filter(Boolean).join(" · ");
+    sub.textContent = [meta, sourceLabel(song)].filter(Boolean).join(" · ") || sourceLabel(song);
     if (song.cover) {
       const thumb = optimizedImageUrl(song.cover, { size: IMAGE_SIZES.list });
       cover.style.backgroundImage = `url("${thumb.replace(/"/g, "%22")}")`;
@@ -106,19 +107,10 @@ export function createPlayer(root) {
     }
   }
 
-  function capPreviewProgress() {
-    if (audio.currentTime >= PREVIEW_SEC) {
-      audio.pause();
-      audio.currentTime = 0;
-      previewCapped = true;
-      setPlayingUi(false);
-      hint.textContent = "试听约 30 秒";
-      cur.textContent = fmt(0);
-      dur.textContent = fmt(PREVIEW_SEC);
-      seek.value = "0";
-    }
-  }
-
+  /**
+   * Pick play URL. Rule: iTunes preview first; NetEase only if no Apple preview.
+   * Caller must run resolvePlaySource before this when itunes is not yet confirmed.
+   */
   async function resolveUrl(song) {
     if (song?.playSource === "itunes" && song.previewUrl) {
       return { url: song.previewUrl, via: "itunes", song };
@@ -137,7 +129,6 @@ export function createPlayer(root) {
     const seq = ++loadSeq;
     lastLoadOpts = { artistName, artistAliases, mapArtistId };
     current = song;
-    previewCapped = false;
     card.hidden = false;
     paintMeta(song);
     hint.textContent = "拉取播放地址中…";
@@ -145,9 +136,12 @@ export function createPlayer(root) {
     hardStopAudio();
 
     let working = song;
-    const confirmedItunes = working.playSource === "itunes" && Boolean(working.previewUrl);
-    const alreadyResolved = confirmedItunes || working.playSource === "netease";
+    const confirmedItunes =
+      working.playSource === "itunes" && Boolean(working.previewUrl);
+    const alreadyResolved =
+      confirmedItunes || working.playSource === "netease";
 
+    // 未决议：先查 iTunes；已决议：不再重复请求
     if (!alreadyResolved) {
       if (working.previewUrl && !working.neteaseId) {
         working = { ...working, playSource: "itunes" };
@@ -170,16 +164,23 @@ export function createPlayer(root) {
     if (seq !== loadSeq) return;
 
     if (!url) {
-      hint.textContent = working?.neteaseId || working?.previewUrl
-        ? "试听繁忙，请稍后再试，或点外链打开。"
-        : "没有可用的试听源。";
+      if (!working?.neteaseId && !working?.previewUrl) {
+        hint.textContent = "没有可用的试听源。";
+      } else {
+        hint.textContent = "试听繁忙，请稍后再试，或点外链打开。";
+      }
       return;
     }
 
-    current = { ...working, playSource: via || working.playSource };
-    paintMeta(current);
-    hint.textContent = "试听约 30 秒";
-    dur.textContent = fmt(PREVIEW_SEC);
+    if (via === "itunes") {
+      current = { ...working, playSource: "itunes", previewUrl: url };
+      paintMeta(current);
+      hint.textContent = "试听约 30 秒";
+    } else {
+      current = { ...working, playSource: "netease" };
+      paintMeta(current);
+      hint.textContent = "";
+    }
 
     audio.src = url;
     if (autoplay) {
@@ -192,6 +193,8 @@ export function createPlayer(root) {
           return;
         }
         setPlayingUi(true);
+        if (via === "itunes") hint.textContent = "试听约 30 秒";
+        else hint.textContent = "";
       } catch {
         if (seq !== loadSeq) return;
         hint.textContent = "浏览器拦截了自动播放，点「播放」即可。";
@@ -201,10 +204,6 @@ export function createPlayer(root) {
   }
 
   playBtn.addEventListener("click", async () => {
-    if (previewCapped && current) {
-      await load(current, { autoplay: true, ...lastLoadOpts });
-      return;
-    }
     if (!audio.src) {
       if (current) await load(current, { autoplay: true, ...lastLoadOpts });
       return;
@@ -224,11 +223,10 @@ export function createPlayer(root) {
 
   audio.addEventListener("timeupdate", () => {
     if (seeking) return;
-    capPreviewProgress();
-    const shown = Math.min(audio.currentTime, PREVIEW_SEC);
-    cur.textContent = fmt(shown);
-    dur.textContent = fmt(PREVIEW_SEC);
-    seek.value = String(Math.round((shown / PREVIEW_SEC) * 1000));
+    const d = audio.duration || 0;
+    cur.textContent = fmt(audio.currentTime);
+    dur.textContent = fmt(d);
+    if (d > 0) seek.value = String(Math.round((audio.currentTime / d) * 1000));
   });
 
   audio.addEventListener("ended", () => setPlayingUi(false));
@@ -244,11 +242,12 @@ export function createPlayer(root) {
   });
   seek.addEventListener("pointerup", () => {
     seeking = false;
-    const t = (Number(seek.value) / 1000) * PREVIEW_SEC;
-    audio.currentTime = Math.min(t, PREVIEW_SEC);
+    const d = audio.duration || 0;
+    if (d > 0) audio.currentTime = (Number(seek.value) / 1000) * d;
   });
   seek.addEventListener("input", () => {
-    cur.textContent = fmt((Number(seek.value) / 1000) * PREVIEW_SEC);
+    const d = audio.duration || 0;
+    if (d > 0) cur.textContent = fmt((Number(seek.value) / 1000) * d);
   });
 
   return {
@@ -263,6 +262,7 @@ export function createPlayer(root) {
   };
 }
 
+/** Pause/clear every <audio> on the page (orphaned nodes after route swaps). */
 export function stopAllPageAudio() {
   document.querySelectorAll("audio").forEach((a) => {
     try {

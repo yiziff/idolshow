@@ -13,7 +13,8 @@
     "fans:merge": "node scripts/merge-netease-fans.mjs",
     "hot-tops:build": "node scripts/build-hot-tops.mjs",
     "roster": "npm run fans:fetch && npm run fans:merge && npm run hot-tops:build",
-    "stages:build": "node scripts/build-itunes-stages.mjs"
+    "stages:build": "node scripts/build-itunes-stages.mjs",
+    "itunes:map": "node scripts/build-itunes-map.mjs"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.47.0",

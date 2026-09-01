@@ -2484,6 +2484,23 @@ export default {
         return await proxyNetease(request, env, url);
       }
 
+      // Dev convenience: /api/itunes → Apple (production client hits Apple directly)
+      if (path.startsWith("/api/itunes")) {
+        const stripped = path.replace(/^\/api\/itunes/, "") || "/";
+        const target = new URL(stripped + url.search, "https://itunes.apple.com/");
+        const upstream = await fetch(target.toString(), {
+          headers: { Accept: "application/json" },
+        });
+        const text = await upstream.text();
+        return new Response(text, {
+          status: upstream.status,
+          headers: {
+            "Content-Type": upstream.headers.get("Content-Type") || "application/json",
+            ...cors,
+          },
+        });
+      }
+
       return json({ error: "not found" }, 404);
     } catch (e) {
       noteFiveXx();

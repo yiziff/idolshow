@@ -43,10 +43,16 @@ function seedExpectsCjk(seed) {
   return hasCjk(seed.name) || hasCjk(seed.search) || hasCjk(NETEASE_SEARCH[seed.id]);
 }
 
+function pickAvatar(artist) {
+  // /artist/detail often returns avatar/cover; cloudsearch returns img1v1Url/picUrl
+  return artist?.avatar || artist?.cover || artist?.img1v1Url || artist?.picUrl || "";
+}
+
 function hiRes(url, size = 400) {
   if (!url) return "";
-  if (url.includes("param=")) return url;
-  return url.includes("?") ? `${url}&param=${size}y${size}` : `${url}?param=${size}y${size}`;
+  let u = String(url).replace(/^http:\/\//i, "https://");
+  if (u.includes("param=")) return u;
+  return u.includes("?") ? `${u}&param=${size}y${size}` : `${u}?param=${size}y${size}`;
 }
 
 async function fanCount(id) {
@@ -110,7 +116,7 @@ async function resolveById(neteaseId, seed) {
     neteaseArtistId: artist.id,
     neteaseName: artist.name,
     fans,
-    avatar: hiRes(artist.img1v1Url || artist.picUrl || "", 400),
+    avatar: hiRes(pickAvatar(artist), 400),
     ok: fans > 0,
   };
 }
@@ -149,7 +155,7 @@ async function resolveSeed(seed) {
     neteaseArtistId: hit.artist.id,
     neteaseName: hit.artist.name,
     fans: hit.fans,
-    avatar: hiRes(hit.artist.img1v1Url || hit.artist.picUrl || "", 400),
+    avatar: hiRes(pickAvatar(hit.artist), 400),
     ok: hit.fans > 0,
   };
 }

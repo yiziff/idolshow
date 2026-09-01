@@ -14,8 +14,13 @@ import {
   playSourcePatchFromTrack,
   playSourceCacheKey,
 } from "./itunes-match.js";
+import { lookupItunesMapEntry } from "./itunes-map.js";
+
+// Dev: Worker proxies /api/itunes → Apple (avoids browser/CN reachability issues)
+// Prod: browser hits Apple Search API directly (CORS-enabled)
 const ITUNES_BASE = import.meta.env.DEV ? "/api/itunes" : "https://itunes.apple.com";
-export const COUNTRIES = ["cn", "hk", "tw", "us", "jp"];
+/** Prefer CN storefront first (same as heipaclub) — fewer requests, faster preview resolve. */
+export const COUNTRIES = ["cn", "hk", "tw"];
 
 export function itunesArt(url, size = 600) {
   if (!url) return "";
@@ -281,7 +286,7 @@ export async function resolvePlaySource(
   song,
   artistName,
   {
-    countries = COUNTRIES,
+    countries = ["cn"],
     artistAliases = [],
     mapArtistId = "",
     bypassCache = false,
@@ -290,11 +295,36 @@ export async function resolvePlaySource(
 ) {
   const title = String(song?.title || "").trim();
   if (!title) {
-    return { ...song, playSource: song?.previewUrl ? "itunes" : "none", previewUrl: song?.previewUrl || "" };
+    return { ...song, playSource: "netease", previewUrl: song?.previewUrl || "" };
   }
 
   if (song?.previewUrl && song?.playSource === "itunes") {
     return { ...song };
+  }
+
+  // Static map (heipaclub style): instant Apple preview when built offline
+  const rosterId = String(mapArtistId || song?.rosterArtistId || "").trim();
+  const neteaseId = String(song?.neteaseId || "").trim();
+  if (rosterId && neteaseId) {
+    const mapped = await lookupItunesMapEntry(rosterId, neteaseId);
+    if (mapped?.kind === "hit") {
+      return {
+        ...song,
+        playSource: "itunes",
+        previewUrl: mapped.previewUrl || "",
+        itunesTrackId: mapped.itunesTrackId || "",
+        trackViewUrl: mapped.trackViewUrl || "",
+      };
+    }
+    if (mapped?.kind === "miss") {
+      return {
+        ...song,
+        playSource: "netease",
+        previewUrl: "",
+        itunesTrackId: "",
+        trackViewUrl: "",
+      };
+    }
   }
 
   const artists = expandArtistAliases(artistName, song, artistAliases);

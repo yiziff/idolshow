@@ -175,12 +175,28 @@ function publishYear(ms) {
 }
 
 export async function songPlayUrl(songId) {
+  const id = String(songId || "").trim();
+  if (!id) return null;
+
+  const pick = (data) => {
+    const raw = data?.data?.[0]?.url || null;
+    if (!raw) return null;
+    // Avoid mixed-content block when page is https
+    return String(raw).replace(/^http:\/\//i, "https://");
+  };
+
+  // Prefer v1 (heipaclub); fall back to classic /song/url when xeapi is down locally
   try {
-    const data = await getJson("/song/url/v1", {
-      id: songId,
-      level: "exhigh",
-    });
-    return data?.data?.[0]?.url || null;
+    const data = await getJson("/song/url/v1", { id, level: "exhigh" });
+    const url = pick(data);
+    if (url) return url;
+  } catch {
+    /* try classic */
+  }
+
+  try {
+    const data = await getJson("/song/url", { id });
+    return pick(data);
   } catch {
     return null;
   }

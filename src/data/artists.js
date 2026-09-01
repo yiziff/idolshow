@@ -1,6 +1,6 @@
 /**
  * 内娱偶像 roster — NetEase 热门 + iTunes 试听优先。
- * Updated: 2026-09-01T10:23:43.741Z · 25 artists
+ * Updated: 2026-09-01T15:01:02.896Z · 25 artists
  */
 export const ARTISTS = [
   {
@@ -154,9 +154,10 @@ export const ARTISTS = [
     "kind": "group",
     "origin": "ip2018",
     "tag": "限定男团",
-    "blurb": "限定男团 · 粉丝 432,422 · 热门 Top50",
+    "blurb": "限定男团 · 粉丝 432,462 · 热门 Top50",
     "neteaseArtistId": 15021166,
-    "fans": 432422
+    "fans": 432462,
+    "avatar": "https://p3.music.126.net/7_6A60-pQneg6_qS6M4Eyw==/109951163703590115.jpg?param=400y400"
   },
   {
     "id": "oner",
@@ -165,9 +166,10 @@ export const ARTISTS = [
     "kind": "group",
     "origin": "ip2018",
     "tag": "男团",
-    "blurb": "男团 · 粉丝 430,300 · 热门 Top50",
+    "blurb": "男团 · 粉丝 430,347 · 热门 Top50",
     "neteaseArtistId": 29148386,
-    "fans": 430300
+    "fans": 430347,
+    "avatar": "https://p3.music.126.net/Hj6-_rNEvyWc0HxBbTsPKA==/109951167380044534.jpg?param=400y400"
   },
   {
     "id": "next",
@@ -176,9 +178,10 @@ export const ARTISTS = [
     "kind": "group",
     "origin": "ip2018",
     "tag": "男团",
-    "blurb": "男团 · 粉丝 426,838 · 热门 Top50",
+    "blurb": "男团 · 粉丝 426,835 · 热门 Top50",
     "neteaseArtistId": 15021290,
-    "fans": 426838
+    "fans": 426835,
+    "avatar": "https://p3.music.126.net/-Nx0AjRZ6TozdtFjNldzww==/109951163464664753.jpg?param=400y400"
   },
   {
     "id": "zhu-zhengting",

@@ -19,6 +19,7 @@ import {
   resolvePlaySource,
   searchArtist as searchItunesArtist,
 } from "./itunes.js";
+import { lookupItunesMapEntry } from "./itunes-map.js";
 import { hasHotTopPack, loadHotTopPack } from "./hot-tops.js";
 import { fetchArtistTopCache, putArtistTopCache } from "./artist-top-cache.js";
 import {
@@ -1722,13 +1723,30 @@ function patchPlaySourceInBracket(bracket, song) {
 
 async function ensureSongPlaySource(state, song) {
   if (!song) return song;
-  // 已判定过音源就直接用（iTunes / 网易云都算已决议），避免点试听重复打接口
+  // Confirmed Apple preview — reuse
   if (song.playSource === "itunes" && song.previewUrl) return song;
-  if (song.playSource === "netease") return song;
+
+  const mapArtistId = song.rosterArtistId || state.artistId || "";
+  // Previously fell back to NetEase; if static map now has a hit, upgrade (heipaclub style)
+  if (song.playSource === "netease") {
+    const mapped = await lookupItunesMapEntry(mapArtistId, song.neteaseId);
+    if (mapped?.kind !== "hit") return song;
+    const resolved = {
+      ...song,
+      playSource: "itunes",
+      previewUrl: mapped.previewUrl || "",
+      itunesTrackId: mapped.itunesTrackId || "",
+      trackViewUrl: mapped.trackViewUrl || "",
+    };
+    const nextBracket = patchPlaySourceInBracket(state.bracket, resolved);
+    saveState({ ...state, bracket: nextBracket });
+    return resolved;
+  }
+
   const aliases = [state.artistSearch, state.artistName, song.rosterArtistName].filter(Boolean);
   const resolved = await resolvePlaySource(song, state.artistName, {
     artistAliases: aliases,
-    mapArtistId: song.rosterArtistId || state.artistId || "",
+    mapArtistId,
   });
   const nextBracket = patchPlaySourceInBracket(state.bracket, resolved);
   const next = { ...state, bracket: nextBracket };
@@ -1741,7 +1759,7 @@ function prefetchMatchPlaySources(state, match) {
   if (!state?.bracket || !match) return;
   for (const side of [match.a, match.b]) {
     if (!side) continue;
-    if (side.playSource === "itunes" || side.playSource === "netease") continue;
+    if (side.playSource === "itunes" && side.previewUrl) continue;
     ensureSongPlaySource(state, side).catch(() => {});
   }
 }

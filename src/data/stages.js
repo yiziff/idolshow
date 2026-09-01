@@ -1,6 +1,6 @@
 /**
- * 梦回大厂舞台库 — iTunes preview mapping.
- * Generated: 2026-09-01T09:23:34.841Z · 49 stages
+ * 梦回大厂舞台库 — NetEase primary + strict iTunes preview.
+ * Generated: 2026-09-01T16:21:06.876Z · 49 stages
  */
 export const STAGES = [
   {
@@ -24,20 +24,19 @@ export const STAGES = [
         "artist": "NINE PERCENT"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/e3/a1/90e3a125-7ba2-e78d-8fe8-51bf209a1458/4896010589415.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/e3/a1/90e3a125-7ba2-e78d-8fe8-51bf209a1458/4896010589415.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/43/26/d64326df-9517-8f38-8ef0-886774fcb22a/mzaf_13357972802140745348.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "6791130222",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E8%80%8D%E5%B8%85%E5%8B%87%E5%A3%AB/6791130217?i=6791130222&uo=4",
-    "itunesTitle": "耍帅勇士",
-    "itunesArtistName": "火叔",
-    "matchScore": 15,
-    "matchedQuery": {
-      "term": "Ei Ei",
-      "artist": "偶像练习生"
-    },
-    "updatedAt": "2026-09-01T09:17:56.987Z"
+    "neteaseId": "529823971",
+    "cover": "https://p4.music.126.net/iutMqAr58qq8HYKPCrv9sg==/109951163110826700.jpg?param=600y600",
+    "coverSm": "https://p4.music.126.net/iutMqAr58qq8HYKPCrv9sg==/109951163110826700.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "Ei Ei",
+    "neteaseArtistName": "偶像练习生",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:12:32.375Z"
   },
   {
     "id": "i-wanna-get-love",
@@ -60,20 +59,19 @@ export const STAGES = [
         "artist": "KUN"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/53/cf/7353cf63-2945-f8ae-d9be-00deb4d9c3b9/cover.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/53/cf/7353cf63-2945-f8ae-d9be-00deb4d9c3b9/cover.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/63/a0/9b63a047-3325-fd7e-2132-cf680b5638c4/mzaf_4054008608025813662.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1804543021",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E6%83%85%E4%BA%BA-lover/1804543018?i=1804543021&uo=4",
-    "itunesTitle": "情人 (Lover)",
-    "itunesArtistName": "蔡徐坤",
-    "matchScore": 50,
-    "matchedQuery": {
-      "term": "I Wanna Get Love",
-      "artist": "蔡徐坤"
-    },
-    "updatedAt": "2026-09-01T09:18:06.691Z"
+    "neteaseId": "526857315",
+    "cover": "https://p3.music.126.net/m1yN6D5f5_cglOTALj1Z0Q==/109951163155087195.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/m1yN6D5f5_cglOTALj1Z0Q==/109951163155087195.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "I Wanna Get Love",
+    "neteaseArtistName": "蔡徐坤",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:12:40.999Z"
   },
   {
     "id": "girl",
@@ -92,20 +90,19 @@ export const STAGES = [
         "artist": "陈立农"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/0e/3b/ed/0e3bede1-c4d4-0bf3-047c-23347d58e3f8/dj.xixusect.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/0e/3b/ed/0e3bede1-c4d4-0bf3-047c-23347d58e3f8/dj.xixusect.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/75/b6/6775b6cb-8905-c627-1caa-7857c0b40b21/mzaf_9308262671355103250.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "998283600",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E5%A5%B3%E5%AD%A9-2015-%E9%9F%A6%E7%A4%BC%E5%AE%89-%E6%94%BE%E5%BC%80%E9%82%A3%E5%A5%B3%E5%AD%A9-%E5%B0%8F%E5%B7%A8%E8%9B%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E6%B1%82%E7%88%B1%E4%B8%BB%E9%A2%98%E6%9B%B2-%E7%94%B5%E8%A7%86%E5%89%A7-%E9%95%BF%E4%B8%8D%E5%A4%A7%E7%9A%84%E7%88%B8%E7%88%B8-%E7%89%87%E5%A4%B4%E6%9B%B2/998283599?i=998283600&uo=4",
-    "itunesTitle": "女孩 (2015 韦礼安 《放开那女孩》 小巨蛋演唱会求爱主题曲/电视剧《长不大的爸爸》片头曲)",
-    "itunesArtistName": "韦礼安",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "女孩",
-      "artist": "陈立农"
-    },
-    "updatedAt": "2026-09-01T09:18:11.692Z"
+    "neteaseId": "531051713",
+    "cover": "https://p3.music.126.net/MzzVK5hMLnAIXg2eomXeUg==/109951163115610213.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/MzzVK5hMLnAIXg2eomXeUg==/109951163115610213.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "女孩",
+    "neteaseArtistName": "陈立农",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:12:47.224Z"
   },
   {
     "id": "eoeo",
@@ -134,20 +131,19 @@ export const STAGES = [
         "artist": "UNIQ"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/e4/e7/42e4e726-cd9b-ee1e-5ada-c63ee322dd5d/6937427347255.png/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/e4/e7/42e4e726-cd9b-ee1e-5ada-c63ee322dd5d/6937427347255.png/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/bf/21/25bf2186-08d4-0f3a-3553-fe7cd4efaeee/mzaf_14100452310639293663.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "6795557480",
-    "trackViewUrl": "https://music.apple.com/cn/album/eoeo-kor-ver/6795557472?i=6795557480&uo=4",
-    "itunesTitle": "EOEO(Kor.Ver)",
-    "itunesArtistName": "UNIQ",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "EOEO",
-      "artist": "UNIQ"
-    },
-    "updatedAt": "2026-09-01T09:18:21.249Z"
+    "neteaseId": "31594240",
+    "cover": "https://p3.music.126.net/_ScxzHBGTjUNefNpCeIcbg==/7843915953281392.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/_ScxzHBGTjUNefNpCeIcbg==/7843915953281392.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "EOEO (中文版)",
+    "neteaseArtistName": "UNIQ",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:12:55.506Z"
   },
   {
     "id": "antidote",
@@ -169,6 +165,7 @@ export const STAGES = [
         "artist": "ONER"
       }
     ],
+    "neteaseId": "1407373065",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ea/f8/5f/eaf85fdd-cda7-5f10-7cb2-4785b1c1f071/live.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ea/f8/5f/eaf85fdd-cda7-5f10-7cb2-4785b1c1f071/live.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1c/cb/d8/1ccbd8d6-083d-41f3-e0e7-3822c42ec54c/mzaf_14547766162229326502.plus.aac.p.m4a",
@@ -177,12 +174,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/%E8%A7%A3%E8%8D%AF-live/1506888589?i=1506888592&uo=4",
     "itunesTitle": "解药 (Live)",
     "itunesArtistName": "ONER",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "解药",
-      "artist": "ONER"
-    },
-    "updatedAt": "2026-09-01T09:18:25.702Z"
+    "neteaseTitle": "解药 (Live)",
+    "neteaseArtistName": "ONER",
+    "matchScore": 100,
+    "updatedAt": "2026-09-01T16:13:01.810Z"
   },
   {
     "id": "bingo-cash",
@@ -206,20 +201,15 @@ export const STAGES = [
         "artist": "Lil Ghost"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/42/a7/d8/42a7d81f-21c8-b7ec-6a50-a8568a641535/859719053964_cover.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/42/a7/d8/42a7d81f-21c8-b7ec-6a50-a8568a641535/859719053964_cover.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/e3/59/1ce3592f-02d5-d979-767b-8c163d7db76d/mzaf_7905674471699311065.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1186695896",
-    "trackViewUrl": "https://music.apple.com/cn/album/bingo/1186695754?i=1186695896&uo=4",
-    "itunesTitle": "Bingo",
-    "itunesArtistName": "Mother Goose Club",
-    "matchScore": 67,
-    "matchedQuery": {
-      "term": "Bingo Cash",
-      "artist": "Lil Ghost"
-    },
-    "updatedAt": "2026-09-01T09:18:37.935Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:13:09.708Z"
   },
   {
     "id": "heartbeat",
@@ -238,20 +228,15 @@ export const STAGES = [
         "artist": "王子异"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/1a/ad/df1aad1b-c62f-0897-18e6-b5aeaad50e54/6937427337485.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/1a/ad/df1aad1b-c62f-0897-18e6-b5aeaad50e54/6937427337485.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/ac/d7/f7acd7eb-272d-0187-a1a1-b862f47bba67/mzaf_16102387989334758820.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "6795724756",
-    "trackViewUrl": "https://music.apple.com/cn/album/empty-space-feat-%E7%8E%8B%E5%AD%90%E5%BC%82/6795724755?i=6795724756&uo=4",
-    "itunesTitle": "EMPTY SPACE (feat. 王子异)",
-    "itunesArtistName": "朱正廷",
-    "matchScore": 15,
-    "matchedQuery": {
-      "term": "心跳节奏",
-      "artist": "王子异"
-    },
-    "updatedAt": "2026-09-01T09:18:56.319Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:13:16.425Z"
   },
   {
     "id": "turtle",
@@ -271,20 +256,15 @@ export const STAGES = [
         "artist": "董又霖"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/2a/d6/322ad683-3563-dd93-d3b6-fef9df73fc2a/4896010590190.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/2a/d6/322ad683-3563-dd93-d3b6-fef9df73fc2a/4896010590190.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/a1/59/70a1596b-5810-9462-725c-013809b9dae7/mzaf_16305297095774342276.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "6791146278",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E5%8A%A8%E7%89%A9%E4%BB%AC-feat-momo%E4%BB%BB%E7%8F%8A/6791146276?i=6791146278&uo=4",
-    "itunesTitle": "动物们 (feat. MOMO任珊)",
-    "itunesArtistName": "雷霖",
-    "matchScore": 15,
-    "matchedQuery": {
-      "term": "乌龟",
-      "artist": "董又霖"
-    },
-    "updatedAt": "2026-09-01T09:19:23.056Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:13:20.183Z"
   },
   {
     "id": "let-world-end",
@@ -306,20 +286,15 @@ export const STAGES = [
         "artist": "林彦俊"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/53/fd/0f/53fd0f0c-a3d4-81d1-0335-898cc6ffeeea/cover.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/53/fd/0f/53fd0f0c-a3d4-81d1-0335-898cc6ffeeea/cover.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9d/9c/61/9d9c61c3-231e-1205-e2cb-18792aaea584/mzaf_16611518685875355683.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1628671044",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E4%BA%BA%E9%B1%BC%E7%9A%84%E7%9C%BC%E6%B3%AA/1628670657?i=1628671044&uo=4",
-    "itunesTitle": "人鱼的眼泪",
-    "itunesArtistName": "李婉茹",
-    "matchScore": 15,
-    "matchedQuery": {
-      "term": "让世界毁灭",
-      "artist": "林彦俊"
-    },
-    "updatedAt": "2026-09-01T09:19:34.745Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:13:37.464Z"
   },
   {
     "id": "tiger",
@@ -339,20 +314,15 @@ export const STAGES = [
         "artist": "李希侃"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/bd/4c/dcbd4ccc-ab8f-688b-2ba9-2da6ff8f5103/4894972106367.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/bd/4c/dcbd4ccc-ab8f-688b-2ba9-2da6ff8f5103/4894972106367.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/73/13/a2731319-1006-ead6-474d-71720428beda/mzaf_9457944652690819373.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1742165521",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E7%8B%90%E7%8B%B8%E9%A2%82/1742165513?i=1742165521&uo=4",
-    "itunesTitle": "狐狸颂",
-    "itunesArtistName": "李希侃",
-    "matchScore": 50,
-    "matchedQuery": {
-      "term": "Tiger",
-      "artist": "李希侃"
-    },
-    "updatedAt": "2026-09-01T09:19:42.966Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:13:47.245Z"
   },
   {
     "id": "written-in-song",
@@ -373,20 +343,15 @@ export const STAGES = [
         "artist": "韩沐伯"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/4a/13/26/4a1326c3-5300-5162-7aca-e931531bd2eb/9555150725811.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/4a/13/26/4a1326c3-5300-5162-7aca-e931531bd2eb/9555150725811.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/74/1c/47/741c47cd-bc24-3294-06dd-273bb86da3ff/mzaf_1640691213223073454.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1446256354",
-    "trackViewUrl": "https://music.apple.com/cn/album/across/1446256352?i=1446256354&uo=4",
-    "itunesTitle": "Across",
-    "itunesArtistName": "韩沐伯",
-    "matchScore": 50,
-    "matchedQuery": {
-      "term": "你被写在我的歌里",
-      "artist": "韩沐伯"
-    },
-    "updatedAt": "2026-09-01T09:19:49.266Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:13:54.062Z"
   },
   {
     "id": "falling-for-you",
@@ -405,20 +370,19 @@ export const STAGES = [
         "artist": "庾澄庆"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/49/44/b24944a5-28a5-ffe9-a852-f3d5cdfc8054/mzi.mcskqzfu.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/49/44/b24944a5-28a5-ffe9-a852-f3d5cdfc8054/mzi.mcskqzfu.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/3b/94/0d3b94b4-e056-567a-94b7-06c57c94b447/mzaf_4413239663379634355.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "312506680",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E6%83%85%E9%9D%9E%E5%BE%97%E5%B7%B2/312506621?i=312506680&uo=4",
-    "itunesTitle": "情非得已",
-    "itunesArtistName": "庾澄庆",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "情非得已",
-      "artist": "庾澄庆"
-    },
-    "updatedAt": "2026-09-01T09:19:54.050Z"
+    "neteaseId": "176999",
+    "cover": "https://p3.music.126.net/MO2onaCla3Z3BTkBBVFC0A==/109951169040243386.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/MO2onaCla3Z3BTkBBVFC0A==/109951169040243386.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "情非得已",
+    "neteaseArtistName": "庾澄庆",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:14:00.017Z"
   },
   {
     "id": "ppap-a",
@@ -439,20 +403,19 @@ export const STAGES = [
         "artist": "Pikotaro"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/ca/0b/36/ca0b366f-6c01-b98c-a0ff-5a7d325b4091/ANTCD-19810.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/ca/0b/36/ca0b366f-6c01-b98c-a0ff-5a7d325b4091/ANTCD-19810.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1b/d0/85/1bd0852b-e48a-bc61-d6c3-5d0a6a3a5e3b/mzaf_14002922533207121591.plus.aac.p.m4a",
+    "neteaseId": "534542406",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/be/bf/2fbebf2c-1dbc-f929-c35b-d6df473f1dff/mzaf_7689692234429159586.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1161607725",
-    "trackViewUrl": "https://music.apple.com/cn/album/ppap-pen-pineapple-apple-pen/1161607665?i=1161607725&uo=4",
-    "itunesTitle": "PPAP (Pen-Pineapple-Apple-Pen)",
-    "itunesArtistName": "PIKOTARO",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "PPAP",
-      "artist": "Pikotaro"
-    },
-    "updatedAt": "2026-09-01T09:19:58.769Z"
+    "itunesTrackId": "1851683685",
+    "trackViewUrl": "https://music.apple.com/cn/album/ppap-a%E7%BB%84%E7%8E%B0%E5%9C%BA%E7%89%88/1851682601?i=1851683685&uo=4",
+    "itunesTitle": "PPAP (A组现场版)",
+    "itunesArtistName": "周彦辰, 朱正廷, 周锐, 王子异 & 蔡徐坤",
+    "neteaseTitle": "PPAP (A组现场版)",
+    "neteaseArtistName": "周彦辰, 朱正廷, 周锐, 王子异, 蔡徐坤",
+    "matchScore": 149,
+    "updatedAt": "2026-09-01T16:14:04.120Z"
   },
   {
     "id": "ppap-b",
@@ -471,20 +434,19 @@ export const STAGES = [
         "artist": "Pikotaro"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/ca/0b/36/ca0b366f-6c01-b98c-a0ff-5a7d325b4091/ANTCD-19810.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/ca/0b/36/ca0b366f-6c01-b98c-a0ff-5a7d325b4091/ANTCD-19810.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1b/d0/85/1bd0852b-e48a-bc61-d6c3-5d0a6a3a5e3b/mzaf_14002922533207121591.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1161607725",
-    "trackViewUrl": "https://music.apple.com/cn/album/ppap-pen-pineapple-apple-pen/1161607665?i=1161607725&uo=4",
-    "itunesTitle": "PPAP (Pen-Pineapple-Apple-Pen)",
-    "itunesArtistName": "PIKOTARO",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "PPAP",
-      "artist": "Pikotaro"
-    },
-    "updatedAt": "2026-09-01T09:20:01.840Z"
+    "neteaseId": "534542407",
+    "cover": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "PPAP (B组现场版)",
+    "neteaseArtistName": "李若天, 钱正昊, 陈名豪, Dannis, 王宥辰",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:14:08.732Z"
   },
   {
     "id": "cant-stop-a",
@@ -505,20 +467,19 @@ export const STAGES = [
         "artist": "Red Velvet"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/ec/27/73ec2771-a008-e55b-8ccd-faf6257d5cd0/093624932178.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/ec/27/73ec2771-a008-e55b-8ccd-faf6257d5cd0/093624932178.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/c4/62/74c462b7-3f9b-c744-7b27-75dc13e956a8/mzaf_17956135004516972137.plus.aac.p.m4a",
+    "neteaseId": "534539367",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/1c/64/331c644f-c530-a7b7-90c9-fefa5d39ea52/mzaf_15050524171515918718.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "945578427",
-    "trackViewUrl": "https://music.apple.com/cn/album/cant-stop/945578420?i=945578427&uo=4",
-    "itunesTitle": "Can't Stop",
-    "itunesArtistName": "Red Hot Chili Peppers",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "Can't Stop",
-      "artist": "Red Velvet"
-    },
-    "updatedAt": "2026-09-01T09:20:06.945Z"
+    "itunesTrackId": "1851683689",
+    "trackViewUrl": "https://music.apple.com/cn/album/cant-stop-a%E7%BB%84%E7%8E%B0%E5%9C%BA%E7%89%88/1851682601?i=1851683689&uo=4",
+    "itunesTitle": "Can't Stop (A组现场版)",
+    "itunesArtistName": "邓烺怡, 范丞丞, 黄明昊, 郑艺彬, 尤长靖, 林超泽 & 吕晨瑜",
+    "neteaseTitle": "Can't Stop (A组现场版)",
+    "neteaseArtistName": "邓烺怡, 范丞丞, 黄明昊 (Justin), 郑艺彬, 尤长靖, 林超泽, 吕晨瑜",
+    "matchScore": 141,
+    "updatedAt": "2026-09-01T16:14:11.862Z"
   },
   {
     "id": "cant-stop-b",
@@ -538,20 +499,19 @@ export const STAGES = [
         "artist": "Red Velvet"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/ec/27/73ec2771-a008-e55b-8ccd-faf6257d5cd0/093624932178.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/ec/27/73ec2771-a008-e55b-8ccd-faf6257d5cd0/093624932178.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/c4/62/74c462b7-3f9b-c744-7b27-75dc13e956a8/mzaf_17956135004516972137.plus.aac.p.m4a",
+    "neteaseId": "534541397",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/1c/64/331c644f-c530-a7b7-90c9-fefa5d39ea52/mzaf_15050524171515918718.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "945578427",
-    "trackViewUrl": "https://music.apple.com/cn/album/cant-stop/945578420?i=945578427&uo=4",
-    "itunesTitle": "Can't Stop",
-    "itunesArtistName": "Red Hot Chili Peppers",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "Can't Stop",
-      "artist": "Red Velvet"
-    },
-    "updatedAt": "2026-09-01T09:20:09.990Z"
+    "itunesTrackId": "1851683689",
+    "trackViewUrl": "https://music.apple.com/cn/album/cant-stop-a%E7%BB%84%E7%8E%B0%E5%9C%BA%E7%89%88/1851682601?i=1851683689&uo=4",
+    "itunesTitle": "Can't Stop (A组现场版)",
+    "itunesArtistName": "邓烺怡, 范丞丞, 黄明昊, 郑艺彬, 尤长靖, 林超泽 & 吕晨瑜",
+    "neteaseTitle": "Can't Stop (B组现场版)",
+    "neteaseArtistName": "董又霖, 韩沐伯, ONER灵超, 王梓豪, 伽里, 秦奋, 徐圣恩",
+    "matchScore": 133,
+    "updatedAt": "2026-09-01T16:14:14.643Z"
   },
   {
     "id": "half-beast-a",
@@ -571,20 +531,15 @@ export const STAGES = [
         "artist": "周杰伦"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/05/7a/67057afc-968f-ecb2-e6ec-1ea2c90ddd30/mzaf_14101473463323725312.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "536162077",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E5%8D%8A%E5%85%BD%E4%BA%BA/536161722?i=536162077&uo=4",
-    "itunesTitle": "半兽人",
-    "itunesArtistName": "周杰伦",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "半兽人",
-      "artist": "周杰伦"
-    },
-    "updatedAt": "2026-09-01T09:20:14.945Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:14:18.678Z"
   },
   {
     "id": "half-beast-b",
@@ -604,20 +559,15 @@ export const STAGES = [
         "artist": "周杰伦"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/05/7a/67057afc-968f-ecb2-e6ec-1ea2c90ddd30/mzaf_14101473463323725312.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "536162077",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E5%8D%8A%E5%85%BD%E4%BA%BA/536161722?i=536162077&uo=4",
-    "itunesTitle": "半兽人",
-    "itunesArtistName": "周杰伦",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "半兽人",
-      "artist": "周杰伦"
-    },
-    "updatedAt": "2026-09-01T09:20:17.951Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:14:25.581Z"
   },
   {
     "id": "great-artist",
@@ -637,15 +587,19 @@ export const STAGES = [
         "artist": "Lady Gaga"
       }
     ],
-    "cover": "",
-    "coverSm": "",
+    "neteaseId": "534539369",
+    "cover": "https://p4.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p4.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
     "previewUrl": "",
-    "playSource": "none",
+    "playSource": "netease",
     "itunesTrackId": "",
     "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "大艺术家 (A组现场版)",
+    "neteaseArtistName": "张奕轩, 陈立农, 孙浩然, 侯浩然, J-ONE, 贝汯璘",
     "matchScore": 0,
-    "matchedQuery": null,
-    "updatedAt": "2026-09-01T09:20:22.158Z"
+    "updatedAt": "2026-09-01T16:14:32.237Z"
   },
   {
     "id": "contra",
@@ -664,6 +618,7 @@ export const STAGES = [
         "artist": "杨非同"
       }
     ],
+    "neteaseId": "534541399",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/a0/a7/7aa0a75b-28a1-7b6b-0c1c-bc8f90389262/mzaf_2139216641095398067.plus.aac.p.m4a",
@@ -672,12 +627,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/%E4%BB%A3%E5%8F%B7%E9%AD%82%E6%96%97%E7%BD%97-b%E7%BB%84%E7%8E%B0%E5%9C%BA%E7%89%88/1851682601?i=1851683559&uo=4",
     "itunesTitle": "代号魂斗罗 (B组现场版)",
     "itunesArtistName": "朱一文, 杨非同, 徐鹤尼, 林浩楷, 何嘉庚, 塔叩 & 韩雍杰",
-    "matchScore": 95,
-    "matchedQuery": {
-      "term": "魂斗罗",
-      "artist": "杨非同"
-    },
-    "updatedAt": "2026-09-01T09:20:26.459Z"
+    "neteaseTitle": "代号魂斗罗 (B组现场版)",
+    "neteaseArtistName": "朱一文, 杨非同, 徐鹤尼, 林浩楷, 何嘉庚, 塔叩, 韩雍杰",
+    "matchScore": 108,
+    "updatedAt": "2026-09-01T16:14:50.202Z"
   },
   {
     "id": "dance-to-music",
@@ -697,20 +650,19 @@ export const STAGES = [
         "artist": "Sly and the Family Stone"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/45/c0/79/45c0799c-cd95-9294-a505-0576279cfa12/dj.didormhq.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/45/c0/79/45c0799c-cd95-9294-a505-0576279cfa12/dj.didormhq.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/7c/b8/c47cb859-dd9a-a6f5-5ea1-c8c8b3c661dc/mzaf_13150134229923280298.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "212571243",
-    "trackViewUrl": "https://music.apple.com/cn/album/dance-to-the-music/212571238?i=212571243&uo=4",
-    "itunesTitle": "Dance to the Music",
-    "itunesArtistName": "Sly & The Family Stone",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "Dance to the Music",
-      "artist": "Sly and the Family Stone"
-    },
-    "updatedAt": "2026-09-01T09:20:31.883Z"
+    "neteaseId": "534542404",
+    "cover": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "Dance To The Music (A组现场版)",
+    "neteaseArtistName": "余明君, 罗杰, 姜京佐, 朱匀一, 朱星杰, YiF张艺凡",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:14:57.405Z"
   },
   {
     "id": "get-ugly",
@@ -730,20 +682,19 @@ export const STAGES = [
         "artist": "Jason Derulo"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/c5/47/97/c547974f-a485-ba91-a76e-d77880b0b93b/054391967800.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/c5/47/97/c547974f-a485-ba91-a76e-d77880b0b93b/054391967800.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/31/78/5a/31785a47-8e8d-230a-a245-becfb84ca24a/mzaf_7830022593604515025.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1014951477",
-    "trackViewUrl": "https://music.apple.com/cn/album/get-ugly/1014951476?i=1014951477&uo=4",
-    "itunesTitle": "Get Ugly",
-    "itunesArtistName": "Jason Derulo",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "Get Ugly",
-      "artist": "Jason Derulo"
-    },
-    "updatedAt": "2026-09-01T09:20:37.200Z"
+    "neteaseId": "534541398",
+    "cover": "https://p4.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p4.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "Get Ugly (6人版)",
+    "neteaseArtistName": "黄书豪, 李鑫岩, 孙凡杰, 阿涵acy, 张晏恺, 应智越",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:15:07.035Z"
   },
   {
     "id": "shake",
@@ -762,6 +713,7 @@ export const STAGES = [
         "artist": "罗正"
       }
     ],
+    "neteaseId": "534540385",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/64/80/f36480fd-f95e-92dc-3d8d-f5aad7b0d21e/mzaf_6049097012288731380.plus.aac.p.m4a",
@@ -770,12 +722,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/shake-b%E7%BB%84%E7%8E%B0%E5%9C%BA%E7%89%88/1851682601?i=1851683684&uo=4",
     "itunesTitle": "Shake (B组现场版)",
     "itunesArtistName": "王艺龙, 何东东, 罗正, 张达塬 & 闵喆祥",
+    "neteaseTitle": "Shake (B组现场版)",
+    "neteaseArtistName": "王艺龙, 何东东, 罗正, 张达塬, 闵喆祥",
     "matchScore": 108,
-    "matchedQuery": {
-      "term": "Shake",
-      "artist": "罗正"
-    },
-    "updatedAt": "2026-09-01T09:20:42.124Z"
+    "updatedAt": "2026-09-01T16:15:17.509Z"
   },
   {
     "id": "snore",
@@ -795,20 +745,19 @@ export const STAGES = [
         "artist": "陆定昊"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/87/d6/0387d6dd-c335-9551-7bfc-2821a0b91520/banjiangdeshihouwoyaoquexi.png/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/87/d6/0387d6dd-c335-9551-7bfc-2821a0b91520/banjiangdeshihouwoyaoquexi.png/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/71/2f/a8/712fa843-7b1d-6d33-b27b-f2fe285a80e4/mzaf_1860132504267009966.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1523636637",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E5%8F%B7%E7%9A%84%E8%88%B9%E5%8C%BB/1523636631?i=1523636637&uo=4",
-    "itunesTitle": "莫比乌斯号的船医",
-    "itunesArtistName": "裘德",
-    "matchScore": 15,
-    "matchedQuery": {
-      "term": "打呼",
-      "artist": "陆定昊"
-    },
-    "updatedAt": "2026-09-01T09:20:46.866Z"
+    "neteaseId": "28638579",
+    "cover": "https://p3.music.126.net/kZwKwbaFhkfX6qCz20lRZg==/18647717209103120.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/kZwKwbaFhkfX6qCz20lRZg==/18647717209103120.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "打呼",
+    "neteaseArtistName": "潘玮柏, 杨丞琳",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:15:25.346Z"
   },
   {
     "id": "papillon",
@@ -834,20 +783,19 @@ export const STAGES = [
         "artist": "王嘉尔"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/76/7a/25767adf-ac78-f4dc-cc38-f6ddaf396978/26119.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/76/7a/25767adf-ac78-f4dc-cc38-f6ddaf396978/26119.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/69/63/bf696387-0ed1-1a4f-42db-d4460139164a/mzaf_95360779767453815.plus.aac.p.m4a",
+    "neteaseId": "542690024",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/91/df/7191df8f-d787-4132-d01d-8aeaa02a3b5a/mzaf_11898326396919261937.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1867461840",
-    "trackViewUrl": "https://music.apple.com/cn/album/papillon/1867461839?i=1867461840&uo=4",
-    "itunesTitle": "Papillon",
-    "itunesArtistName": "Jackson Wang",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "Papillon",
-      "artist": "Jackson Wang"
-    },
-    "updatedAt": "2026-09-01T09:20:51.650Z"
+    "itunesTrackId": "1851683546",
+    "trackViewUrl": "https://music.apple.com/cn/album/papillon-live/1851682601?i=1851683546&uo=4",
+    "itunesTitle": "Papillon (Live)",
+    "itunesArtistName": "蔡徐坤, 黄明昊, 卜凡 & 王子异",
+    "neteaseTitle": "Papillon (Live)",
+    "neteaseArtistName": "蔡徐坤, 黄明昊 (Justin), 卜凡, 王子异",
+    "matchScore": 157,
+    "updatedAt": "2026-09-01T16:15:30.695Z"
   },
   {
     "id": "very-good",
@@ -866,6 +814,7 @@ export const STAGES = [
         "artist": "范丞丞"
       }
     ],
+    "neteaseId": "544000397",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/e2/9e/c4e29e99-994a-5bd2-285f-831f1b5f8520/mzaf_18260341608904162000.plus.aac.p.m4a",
@@ -874,12 +823,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/very-good-live/1851682601?i=1851683430&uo=4",
     "itunesTitle": "Very Good (Live)",
     "itunesArtistName": "范丞丞, 贝汯璘, 李俊毅 & zjpym",
-    "matchScore": 108,
-    "matchedQuery": {
-      "term": "Very Good",
-      "artist": "范丞丞"
-    },
-    "updatedAt": "2026-09-01T09:21:03.794Z"
+    "neteaseTitle": "Very Good (Live)",
+    "neteaseArtistName": "范丞丞, 贝汯璘, 李俊毅, 791哩",
+    "matchScore": 133,
+    "updatedAt": "2026-09-01T16:15:33.713Z"
   },
   {
     "id": "turn-down-for-what",
@@ -899,20 +846,19 @@ export const STAGES = [
         "artist": "DJ Snake"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/54/4a/6d/544a6dc7-8d93-a8fe-74cc-530f4c078620/886444410779.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/54/4a/6d/544a6dc7-8d93-a8fe-74cc-530f4c078620/886444410779.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/41/34/6e413453-c797-ef68-1e0a-486b38c3c05f/mzaf_9084720525054845939.plus.aac.p.m4a",
+    "neteaseId": "544000402",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/2d/32/672d3252-8b05-7c81-f7e2-372bbd4a8bcc/mzaf_17809203462580781173.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "786489670",
-    "trackViewUrl": "https://music.apple.com/cn/album/turn-down-for-what/786489553?i=786489670&uo=4",
-    "itunesTitle": "Turn Down for What",
-    "itunesArtistName": "Dj Snake & Lil Jon",
-    "matchScore": 108,
-    "matchedQuery": {
-      "term": "Turn Down for What",
-      "artist": "DJ Snake"
-    },
-    "updatedAt": "2026-09-01T09:21:12.679Z"
+    "itunesTrackId": "1851683432",
+    "trackViewUrl": "https://music.apple.com/cn/album/turn-down-for-what-live/1851682601?i=1851683432&uo=4",
+    "itunesTitle": "Turn Down for What (Live)",
+    "itunesArtistName": "秦奋, 双层芝士汤姆, 靖佩瑶 & 董岩磊",
+    "neteaseTitle": "Turn Down for What (Live)",
+    "neteaseArtistName": "秦奋, 双层芝士汤姆, 靖佩瑶, 董岩磊",
+    "matchScore": 116,
+    "updatedAt": "2026-09-01T16:15:35.930Z"
   },
   {
     "id": "artist",
@@ -932,20 +878,19 @@ export const STAGES = [
         "artist": "Zico"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/0b/bb/330bbb00-4167-eac7-7a9e-bd10130c4712/cover_KM0021093_1.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/0b/bb/330bbb00-4167-eac7-7a9e-bd10130c4712/cover_KM0021093_1.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/9a/26/979a26fa-31e1-e2ff-eab2-6f8974e38b5b/mzaf_11208439370314255165.plus.aac.p.m4a",
+    "neteaseId": "543987405",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/5a/29/635a29e1-d394-f94d-78a5-be4edf128a28/mzaf_6108388939423344986.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1804661559",
-    "trackViewUrl": "https://music.apple.com/cn/album/artist/1804661544?i=1804661559&uo=4",
-    "itunesTitle": "Artist",
-    "itunesArtistName": "ZICO",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "Artist",
-      "artist": "Zico"
-    },
-    "updatedAt": "2026-09-01T09:21:18.732Z"
+    "itunesTrackId": "1851683424",
+    "trackViewUrl": "https://music.apple.com/hk/album/artist-live/1851682601?i=1851683424&uo=4",
+    "itunesTitle": "Artist (Live)",
+    "itunesArtistName": "小鬼, 徐聖恩, ONER岳岳 & 朱星傑",
+    "neteaseTitle": "Artist (Live)",
+    "neteaseArtistName": "Ghost (王琳凯), 徐圣恩, ONER岳岳, 朱星杰",
+    "matchScore": 108,
+    "updatedAt": "2026-09-01T16:15:40.787Z"
   },
   {
     "id": "what-i-miss",
@@ -965,20 +910,19 @@ export const STAGES = [
         "artist": "孙燕姿"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/8e/7d/398e7d64-1877-03ab-17cb-460943429bc0/825646246939.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/8e/7d/398e7d64-1877-03ab-17cb-460943429bc0/825646246939.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/12/cd/3112cdad-110b-9da9-88e4-0242f7efb715/mzaf_8081013030607847076.plus.aac.p.m4a",
+    "neteaseId": "543988388",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/8c/8c/4f8c8c1a-7251-ae8f-03eb-facdf748ed53/mzaf_6451432317173235615.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "905226305",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E6%88%91%E6%80%80%E5%BF%B5%E7%9A%84/905226289?i=905226305&uo=4",
-    "itunesTitle": "我怀念的",
-    "itunesArtistName": "孙燕姿",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "我怀念的",
-      "artist": "孙燕姿"
-    },
-    "updatedAt": "2026-09-01T09:21:23.534Z"
+    "itunesTrackId": "1851683429",
+    "trackViewUrl": "https://music.apple.com/cn/album/%E6%88%91%E6%80%80%E5%BF%B5%E7%9A%84-live/1851682601?i=1851683429&uo=4",
+    "itunesTitle": "我怀念的 (Live)",
+    "itunesArtistName": "陈立农, 李权哲, 韩沐伯 & 尤长靖",
+    "neteaseTitle": "我怀念的 (Live)",
+    "neteaseArtistName": "陈立农, 李权哲, 韩沐伯, 尤长靖",
+    "matchScore": 141,
+    "updatedAt": "2026-09-01T16:15:45.031Z"
   },
   {
     "id": "half",
@@ -999,20 +943,19 @@ export const STAGES = [
         "artist": "陈粒"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/af/f8/ab/aff8abed-e8f5-1c4b-67a7-860eceb15c59/cover.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/af/f8/ab/aff8abed-e8f5-1c4b-67a7-860eceb15c59/cover.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/6c/c5/036cc551-f691-6029-1a21-7c17f3ddd4f8/mzaf_17487889852424646220.plus.aac.p.m4a",
+    "neteaseId": "543987400",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/a9/22/03a92256-8ed8-a619-63c6-a6bd7d60c210/mzaf_13495110189591159999.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1421693331",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E5%B0%8F%E5%8D%8A/1421692907?i=1421693331&uo=4",
-    "itunesTitle": "小半",
-    "itunesArtistName": "陈粒",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "小半",
-      "artist": "陈粒"
-    },
-    "updatedAt": "2026-09-01T09:21:28.484Z"
+    "itunesTrackId": "1851683439",
+    "trackViewUrl": "https://music.apple.com/cn/album/%E5%B0%8F%E5%8D%8A-live/1851682601?i=1851683439&uo=4",
+    "itunesTitle": "小半 (Live)",
+    "itunesArtistName": "周锐, 郑艺彬, ONER靈超 & 钱正昊",
+    "neteaseTitle": "小半 (Live)",
+    "neteaseArtistName": "周锐, 郑艺彬, ONER灵超, 钱正昊",
+    "matchScore": 116,
+    "updatedAt": "2026-09-01T16:15:47.996Z"
   },
   {
     "id": "love-you",
@@ -1032,20 +975,19 @@ export const STAGES = [
         "artist": "王心凌"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/34/a1/3634a127-665f-3f32-3e4f-92d01d7f49f3/20UMGIM73513.rgb.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/34/a1/3634a127-665f-3f32-3e4f-92d01d7f49f3/20UMGIM73513.rgb.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/82/4d/9d824db9-ec9d-536b-6a71-a4ccd84f17c2/mzaf_10697347728632727496.plus.aac.p.m4a",
+    "neteaseId": "543987399",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/2b/eb/ab2bebb8-6f81-ceb7-fe13-d5ce9dd98341/mzaf_15562386845094603659.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1708557590",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E7%88%B1%E4%BD%A0/1708557388?i=1708557590&uo=4",
-    "itunesTitle": "爱你",
-    "itunesArtistName": "王心凌",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "爱你",
-      "artist": "王心凌"
-    },
-    "updatedAt": "2026-09-01T09:21:33.525Z"
+    "itunesTrackId": "1851683426",
+    "trackViewUrl": "https://music.apple.com/cn/album/%E7%88%B1%E4%BD%A0-live/1851682601?i=1851683426&uo=4",
+    "itunesTitle": "爱你 (Live)",
+    "itunesArtistName": "董又霖, 陆定昊, 黄新淳 & 林彦俊",
+    "neteaseTitle": "爱你 (Live)",
+    "neteaseArtistName": "董又霖, 陆定昊, 黄新淳, 林彦俊",
+    "matchScore": 108,
+    "updatedAt": "2026-09-01T16:15:53.308Z"
   },
   {
     "id": "always-online",
@@ -1065,20 +1007,19 @@ export const STAGES = [
         "artist": "林俊杰"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/e8/4f/99e84f72-3c26-0617-86a7-8e3f250f8c98/fengmain.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/e8/4f/99e84f72-3c26-0617-86a7-8e3f250f8c98/fengmain.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/a3/d5/a5a3d5e4-1cde-212a-5930-f290db7864ea/mzaf_9383174299278610056.plus.aac.p.m4a",
+    "neteaseId": "543987398",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/41/4e/fb414e02-a738-4f48-d2bd-9281e6a7f353/mzaf_15826386188687112077.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1071752119",
-    "trackViewUrl": "https://music.apple.com/cn/album/always-online/1071752047?i=1071752119&uo=4",
-    "itunesTitle": "Always Online",
-    "itunesArtistName": "林俊杰",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "Always Online",
-      "artist": "林俊杰"
-    },
-    "updatedAt": "2026-09-01T09:21:38.177Z"
+    "itunesTrackId": "1851683545",
+    "trackViewUrl": "https://music.apple.com/cn/album/always-online-live/1851682601?i=1851683545&uo=4",
+    "itunesTitle": "Always Online (Live)",
+    "itunesArtistName": "何东东, 罗正, 毕雯珺, 黄书豪 & ONER木子洋",
+    "neteaseTitle": "Always Online (Live)",
+    "neteaseArtistName": "何东东, 罗正, 毕雯珺, 黄书豪, ONER木子洋",
+    "matchScore": 108,
+    "updatedAt": "2026-09-01T16:15:59.763Z"
   },
   {
     "id": "sheep",
@@ -1099,20 +1040,19 @@ export const STAGES = [
         "artist": "Lay"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/62/6b/77/626b77c5-2061-73b9-a02f-da2449c88bec/Cover_4000.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/62/6b/77/626b77c5-2061-73b9-a02f-da2449c88bec/Cover_4000.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/03/8b/0f/038b0f1f-2d17-d00b-1d71-5cdce9853e7a/mzaf_8288492935846896410.plus.aac.p.m4a",
+    "neteaseId": "542667023",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/83/0f/4a830f17-142d-b8f5-68d5-6336a13b5554/mzaf_1018526676255571358.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1290921541",
-    "trackViewUrl": "https://music.apple.com/us/album/sheep/1290920676?i=1290921541&uo=4",
-    "itunesTitle": "Sheep",
-    "itunesArtistName": "LAY",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "Sheep",
-      "artist": "Lay"
-    },
-    "updatedAt": "2026-09-01T09:21:42.918Z"
+    "itunesTrackId": "1851683423",
+    "trackViewUrl": "https://music.apple.com/cn/album/sheep-live/1851682601?i=1851683423&uo=4",
+    "itunesTitle": "Sheep (Live)",
+    "itunesArtistName": "朱正廷, 李希侃, 林超泽, 左叶, 武连杰 & 许凯皓",
+    "neteaseTitle": "Sheep (Live)",
+    "neteaseArtistName": "朱正廷, 李希侃, 林超泽, 左叶, 武连杰, 许凯皓",
+    "matchScore": 149,
+    "updatedAt": "2026-09-01T16:16:04.133Z"
   },
   {
     "id": "nunchucks",
@@ -1132,20 +1072,15 @@ export const STAGES = [
         "artist": "周杰伦"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fa/8d/f2/fa8df257-df16-abd7-9519-37f9700226bc/Cover_CN.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fa/8d/f2/fa8df257-df16-abd7-9519-37f9700226bc/Cover_CN.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/06/59/03065909-362e-67f1-e62a-2aa214362c48/mzaf_8211373618922724634.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1485220309",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E5%8F%8C%E6%88%AA%E6%A3%8D-live/1485220306?i=1485220309&uo=4",
-    "itunesTitle": "双截棍 (Live)",
-    "itunesArtistName": "周杰伦",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "双截棍",
-      "artist": "周杰伦"
-    },
-    "updatedAt": "2026-09-01T09:21:47.820Z"
+    "neteaseId": "",
+    "cover": "",
+    "coverSm": "",
+    "previewUrl": "",
+    "playSource": "none",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:16:08.011Z"
   },
   {
     "id": "me-too",
@@ -1164,20 +1099,19 @@ export const STAGES = [
         "artist": "Meghan Trainor"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/70/ed/4770ed84-b666-05d0-86a7-93a65ead24cb/886446484792.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/70/ed/4770ed84-b666-05d0-86a7-93a65ead24cb/886446484792.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/54/95/dd549571-4106-3722-db4a-84c3cb292b38/mzaf_433722350687475992.plus.aac.p.m4a",
+    "neteaseId": "543986383",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/88/1d/ea881de9-fe64-3b1c-571f-93c66ead6ced/mzaf_4460980304427998312.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1229163691",
-    "trackViewUrl": "https://music.apple.com/cn/album/me-too/1229163154?i=1229163691&uo=4",
-    "itunesTitle": "Me Too",
-    "itunesArtistName": "Meghan Trainor",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "Me Too",
-      "artist": "Meghan Trainor"
-    },
-    "updatedAt": "2026-09-01T09:21:56.737Z"
+    "itunesTrackId": "1851683535",
+    "trackViewUrl": "https://music.apple.com/cn/album/me-too-live/1851682601?i=1851683535&uo=4",
+    "itunesTitle": "Me Too (Live)",
+    "itunesArtistName": "娄滋博, 张达塬, 杨非同, 伽里 & 秦子墨",
+    "neteaseTitle": "Me Too (Live)",
+    "neteaseArtistName": "娄滋博, 张达塬, 杨非同, 伽里, 秦子墨",
+    "matchScore": 108,
+    "updatedAt": "2026-09-01T16:16:15.475Z"
   },
   {
     "id": "flow",
@@ -1196,20 +1130,19 @@ export const STAGES = [
         "artist": "朱星杰"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5a/67/39/5a6739ab-d476-5e3b-e4b6-2dd5d223339b/cover.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5a/67/39/5a6739ab-d476-5e3b-e4b6-2dd5d223339b/cover.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9c/7d/e2/9c7de223-d548-f22d-0c04-990c15c87961/mzaf_12036135575478752635.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1636844399",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E4%B8%8B%E5%9D%A0/1636844046?i=1636844399&uo=4",
-    "itunesTitle": "下坠",
-    "itunesArtistName": "朱星杰",
-    "matchScore": 50,
-    "matchedQuery": {
-      "term": "Flow",
-      "artist": "朱星杰"
-    },
-    "updatedAt": "2026-09-01T09:22:03.041Z"
+    "neteaseId": "543988385",
+    "cover": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:16:27.865Z",
+    "neteaseTitle": "Flow (Live)",
+    "neteaseArtistName": "朱匀一, 梁晋廷, 王艺龙, 朱匀天"
   },
   {
     "id": "firewalking",
@@ -1230,15 +1163,19 @@ export const STAGES = [
         "artist": "NINE PERCENT"
       }
     ],
-    "cover": "",
-    "coverSm": "",
-    "previewUrl": "",
-    "playSource": "none",
-    "itunesTrackId": "",
-    "trackViewUrl": "",
-    "matchScore": 0,
-    "matchedQuery": null,
-    "updatedAt": "2026-09-01T09:22:07.293Z"
+    "neteaseId": "545590290",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/73/10/147310fe-0d13-2fba-f831-9c1f6bae929a/mzaf_10279379773832738884.plus.aac.p.m4a",
+    "playSource": "itunes",
+    "itunesTrackId": "1851683414",
+    "trackViewUrl": "https://music.apple.com/cn/album/firewalking-live/1851682601?i=1851683414&uo=4",
+    "itunesTitle": "Firewalking (Live)",
+    "itunesArtistName": "ONER靈超, 余明君, 林超泽, 李权哲, ONER木子洋, 林彦俊 & 陈立农",
+    "neteaseTitle": "Firewalking (Live)",
+    "neteaseArtistName": "ONER灵超, 余明君, 林超泽, 李权哲, ONER木子洋, 林彦俊, 陈立农",
+    "matchScore": 149,
+    "updatedAt": "2026-09-01T16:16:56.787Z"
   },
   {
     "id": "dream",
@@ -1260,20 +1197,19 @@ export const STAGES = [
         "artist": "NINE PERCENT"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/24/1c/5e/241c5e29-65ae-7e52-3460-0103ff8a5ad3/artwork.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/24/1c/5e/241c5e29-65ae-7e52-3460-0103ff8a5ad3/artwork.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/5b/d0/805bd094-5623-75b4-0d9c-1b91fc0c8c90/mzaf_15898270903945455247.plus.aac.p.m4a",
+    "neteaseId": "545590291",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/81/4a/e0814ac5-c886-325b-d24a-b415666f4b2b/mzaf_16680121153176985077.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1866119096",
-    "trackViewUrl": "https://music.apple.com/jp/album/dream/1866118635?i=1866119096&uo=4",
-    "itunesTitle": "Dream",
-    "itunesArtistName": "Brennan Coco",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "Dream",
-      "artist": "NINE PERCENT"
-    },
-    "updatedAt": "2026-09-01T09:22:12.997Z"
+    "itunesTrackId": "1851683417",
+    "trackViewUrl": "https://music.apple.com/hk/album/dream-live/1851682601?i=1851683417&uo=4",
+    "itunesTitle": "Dream (Live)",
+    "itunesArtistName": "錢正昊, 朱星傑, 範丞丞, 黃明昊, 朱正廷, 丁澤仁 & 周彥辰",
+    "neteaseTitle": "DREAM (Live)",
+    "neteaseArtistName": "钱正昊, 朱星杰, 范丞丞, 黄明昊 (Justin), 朱正廷, 丁泽仁, 周彦辰",
+    "matchScore": 133,
+    "updatedAt": "2026-09-01T16:17:08.112Z"
   },
   {
     "id": "listen-to-me",
@@ -1294,6 +1230,7 @@ export const STAGES = [
         "artist": "NINE PERCENT"
       }
     ],
+    "neteaseId": "545592271",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/fc/ca/cdfccaed-f556-fbbd-6b2d-e8cd2d5f0862/mzaf_1387300577908912929.plus.aac.p.m4a",
@@ -1302,12 +1239,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/%E5%90%AC%E5%90%AC%E6%88%91%E8%AF%B4%E7%9A%84%E5%90%A7-live/1851682601?i=1851683422&uo=4",
     "itunesTitle": "听听我说的吧 (Live)",
     "itunesArtistName": "蔡徐坤, 徐圣恩, 秦奋, 卜凡, 郑艺彬, 小鬼 & 李希侃",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "听听我说的吧",
-      "artist": "NINE PERCENT"
-    },
-    "updatedAt": "2026-09-01T09:22:17.750Z"
+    "neteaseTitle": "听听我说的吧 (Live)",
+    "neteaseArtistName": "蔡徐坤, 徐圣恩, 秦奋, 卜凡, 郑艺彬, Ghost (王琳凯), 李希侃",
+    "matchScore": 149,
+    "updatedAt": "2026-09-01T16:17:16.684Z"
   },
   {
     "id": "boom-boom-boom",
@@ -1328,20 +1263,19 @@ export const STAGES = [
         "artist": "NINE PERCENT"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b6/46/feb64670-4fe7-bbc0-1101-c5f11bfb6905/196871937399.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b6/46/feb64670-4fe7-bbc0-1101-c5f11bfb6905/196871937399.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/7a/4c/be7a4c1f-6702-9d8e-2c02-36bace936eff/mzaf_8126720110083506153.plus.aac.p.m4a",
+    "neteaseId": "545591255",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/18/45/fe184576-758f-0929-6f62-535c4f5347c5/mzaf_5418760567518463575.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1737320979",
-    "trackViewUrl": "https://music.apple.com/cn/album/slimed-in/1737320962?i=1737320979&uo=4",
-    "itunesTitle": "Slimed In",
-    "itunesArtistName": "Future & Metro Boomin",
-    "matchScore": 15,
-    "matchedQuery": {
-      "term": "Boom Boom Boom",
-      "artist": "NINE PERCENT"
-    },
-    "updatedAt": "2026-09-01T09:22:23.105Z"
+    "itunesTrackId": "1851683421",
+    "trackViewUrl": "https://music.apple.com/cn/album/boom-boom-boom-live/1851682601?i=1851683421&uo=4",
+    "itunesTitle": "Boom Boom Boom (Live)",
+    "itunesArtistName": "双层芝士汤姆, 娄滋博, 陆定昊, 罗正, ONER岳岳, 何东东 & 黄新淳",
+    "neteaseTitle": "BOOM BOOM BOOM (Live)",
+    "neteaseArtistName": "双层芝士汤姆, 娄滋博, 陆定昊, 罗正, ONER岳岳, 何东东, 黄新淳",
+    "matchScore": 124,
+    "updatedAt": "2026-09-01T16:17:24.962Z"
   },
   {
     "id": "forever-remember",
@@ -1362,6 +1296,7 @@ export const STAGES = [
         "artist": "NINE PERCENT"
       }
     ],
+    "neteaseId": "545589259",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/96/04/fe9604d6-225d-6c15-e265-8449f94402da/mzaf_7868696063311410635.plus.aac.p.m4a",
@@ -1370,12 +1305,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/%E6%88%91%E6%B0%B8%E8%BF%9C%E8%AE%B0%E5%BE%97-live/1851682601?i=1851683419&uo=4",
     "itunesTitle": "我永远记得 (Live)",
     "itunesArtistName": "周锐, 尤长靖, 韩沐伯, 杨非同, 王子异, 毕雯珺 & 董又霖",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "我永远记得",
-      "artist": "NINE PERCENT"
-    },
-    "updatedAt": "2026-09-01T09:22:28.397Z"
+    "neteaseTitle": "我永远记得 (Live)",
+    "neteaseArtistName": "周锐, 尤长靖, 韩沐伯, 杨非同, 王子异, 毕雯珺, 董又霖",
+    "matchScore": 124,
+    "updatedAt": "2026-09-01T16:17:31.000Z"
   },
   {
     "id": "agent-j",
@@ -1396,6 +1329,7 @@ export const STAGES = [
         "artist": "蔡依林"
       }
     ],
+    "neteaseId": "548649093",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/73/26/8d732609-6879-b1cd-b141-323ed1c8d8b3/mzaf_15554419037995083880.plus.aac.p.m4a",
@@ -1404,12 +1338,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/%E7%89%B9%E5%8A%A1j-live/1851682601?i=1851682610&uo=4",
     "itunesTitle": "特务J (Live)",
     "itunesArtistName": "周洁琼, 范丞丞, 徐圣恩, 余明君, 董又霖, 李希侃, 毕雯珺 & ONER岳岳",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "特务J",
-      "artist": "蔡依林"
-    },
-    "updatedAt": "2026-09-01T09:22:32.952Z"
+    "neteaseTitle": "特务J (Live)",
+    "neteaseArtistName": "周洁琼, 范丞丞, 徐圣恩, 余明君, 董又霖, 李希侃, 毕雯珺, ONER岳岳",
+    "matchScore": 149,
+    "updatedAt": "2026-09-01T16:17:35.844Z"
   },
   {
     "id": "24k-magic",
@@ -1430,20 +1362,19 @@ export const STAGES = [
         "artist": "Bruno Mars"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/a0/e347a0cc-87ce-5d05-d560-176c7d48f66e/075679904119.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/a0/e347a0cc-87ce-5d05-d560-176c7d48f66e/075679904119.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/77/cd/7277cdca-1387-1c7a-529e-72f3c2ed070d/mzaf_3495320363426981496.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1161504024",
-    "trackViewUrl": "https://music.apple.com/cn/album/24k-magic/1161503945?i=1161504024&uo=4",
-    "itunesTitle": "24K Magic",
-    "itunesArtistName": "Bruno Mars",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "24K Magic",
-      "artist": "Bruno Mars"
-    },
-    "updatedAt": "2026-09-01T09:22:41.349Z"
+    "neteaseId": "548651095",
+    "cover": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "24K Magic Remix Havana (Live)",
+    "neteaseArtistName": "程潇, 朱星杰, 秦奋, 黄明昊 (Justin), 罗正, 丁泽仁, 周彦辰, 何东东",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:17:43.217Z"
   },
   {
     "id": "quit-smoking",
@@ -1464,20 +1395,19 @@ export const STAGES = [
         "artist": "李荣浩"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/16/4e/b4/164eb4ef-d164-a26e-a095-4ae408c93921/190295710347.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/16/4e/b4/164eb4ef-d164-a26e-a095-4ae408c93921/190295710347.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/27/89/76/27897602-52e6-1f49-80fa-b383c3c2d259/mzaf_4670733061491370435.plus.aac.p.m4a",
+    "neteaseId": "548648087",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
+    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/34/3f/90343f9e-2b80-99fb-2003-496db89612c9/mzaf_7224434896975870660.plus.aac.p.m4a",
     "playSource": "itunes",
-    "itunesTrackId": "1308453998",
-    "trackViewUrl": "https://music.apple.com/cn/album/%E6%88%92%E7%83%9F/1308453277?i=1308453998&uo=4",
-    "itunesTitle": "戒烟",
-    "itunesArtistName": "李荣浩",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "戒烟",
-      "artist": "李荣浩"
-    },
-    "updatedAt": "2026-09-01T09:22:46.255Z"
+    "itunesTrackId": "1851682611",
+    "trackViewUrl": "https://music.apple.com/cn/album/%E6%88%92%E7%83%9F-live/1851682601?i=1851682611&uo=4",
+    "itunesTitle": "戒烟 (Live)",
+    "itunesArtistName": "李荣浩, 朱正廷, 陈立农, 尤长靖, ONER靈超, ONER木子洋, 杨非同 & 陆定昊",
+    "neteaseTitle": "戒烟 (Live)",
+    "neteaseArtistName": "李荣浩, 朱正廷, 陈立农, 尤长靖, ONER灵超, ONER木子洋, 杨非同, 陆定昊",
+    "matchScore": 149,
+    "updatedAt": "2026-09-01T16:17:46.916Z"
   },
   {
     "id": "mask",
@@ -1498,20 +1428,19 @@ export const STAGES = [
         "artist": "Lay"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/62/6b/77/626b77c5-2061-73b9-a02f-da2449c88bec/Cover_4000.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/62/6b/77/626b77c5-2061-73b9-a02f-da2449c88bec/Cover_4000.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0e/66/d4/0e66d44b-31bb-9a4d-edf3-29ed39b34cd5/mzaf_13565430870572986420.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1290921548",
-    "trackViewUrl": "https://music.apple.com/us/album/mask/1290920676?i=1290921548&uo=4",
-    "itunesTitle": "Mask",
-    "itunesArtistName": "LAY",
-    "matchScore": 115,
-    "matchedQuery": {
-      "term": "Mask",
-      "artist": "Lay"
-    },
-    "updatedAt": "2026-09-01T09:22:51.250Z"
+    "neteaseId": "548650088",
+    "cover": "https://p4.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p4.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "面罩 (Live)",
+    "neteaseArtistName": "张艺兴, 蔡徐坤, 王子异, 娄滋博, 林超泽, 李权哲, 郑艺彬, 韩沐伯",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:17:53.750Z"
   },
   {
     "id": "zero",
@@ -1532,6 +1461,7 @@ export const STAGES = [
         "artist": "欧阳靖"
       }
     ],
+    "neteaseId": "548648086",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/d2/af/71d2af32-6b4e-b84b-508b-989fa8506084/mzaf_5976126958010007672.plus.aac.p.m4a",
@@ -1540,12 +1470,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/zero-live/1851682601?i=1851682608&uo=4",
     "itunesTitle": "Zero (Live)",
     "itunesArtistName": "欧阳靖, 钱正昊, 小鬼, 双层芝士汤姆, 卜凡, 林彦俊, 周锐 & 黄新淳",
-    "matchScore": 108,
-    "matchedQuery": {
-      "term": "Zero",
-      "artist": "欧阳靖"
-    },
-    "updatedAt": "2026-09-01T09:23:11.439Z"
+    "neteaseTitle": "Zero (Live)",
+    "neteaseArtistName": "欧阳靖, 钱正昊, Ghost (王琳凯), 双层芝士汤姆, 卜凡, 林彦俊, 周锐, 黄新淳",
+    "matchScore": 124,
+    "updatedAt": "2026-09-01T16:17:56.783Z"
   },
   {
     "id": "mack-daddy",
@@ -1566,6 +1494,7 @@ export const STAGES = [
         "artist": "NINE PERCENT"
       }
     ],
+    "neteaseId": "550138132",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
     "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/7e/59/cb7e59dd-b14a-cd6f-5760-d959f8a48b72/mzaf_13755461304842612955.plus.aac.p.m4a",
@@ -1574,12 +1503,10 @@ export const STAGES = [
     "trackViewUrl": "https://music.apple.com/cn/album/mack-daddy-live/1851682601?i=1851682604&uo=4",
     "itunesTitle": "Mack Daddy (Live)",
     "itunesArtistName": "卜凡, 陈立农, 秦奋, 蔡徐坤, 徐圣恩, 范丞丞, 钱正昊, 王子异, 朱正廷 & 朱星杰",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "Mack Daddy",
-      "artist": "NINE PERCENT"
-    },
-    "updatedAt": "2026-09-01T09:23:22.109Z"
+    "neteaseTitle": "Mack Daddy (Live)",
+    "neteaseArtistName": "卜凡, 陈立农, 秦奋, 蔡徐坤, 徐圣恩, 范丞丞, 钱正昊, 王子异, 朱正廷, 朱星杰",
+    "matchScore": 149,
+    "updatedAt": "2026-09-01T16:17:59.036Z"
   },
   {
     "id": "its-ok",
@@ -1600,20 +1527,19 @@ export const STAGES = [
         "artist": "NINE PERCENT"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/2d/9b/2c2d9b9d-e185-443f-d92f-d8d1f0514e55/mzaf_9652059338002570365.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1851682603",
-    "trackViewUrl": "https://music.apple.com/cn/album/its-ok-live/1851682601?i=1851682603&uo=4",
-    "itunesTitle": "It's Ok (Live)",
-    "itunesArtistName": "董又霖, 小鬼, ONER靈超, 黄明昊, 郑艺彬, 李希侃, 毕雯珺, 林彦俊, 尤长靖 & 林超泽",
-    "matchScore": 67,
-    "matchedQuery": {
-      "term": "It's OK",
-      "artist": "NINE PERCENT"
-    },
-    "updatedAt": "2026-09-01T09:23:29.635Z"
+    "neteaseId": "550136151",
+    "cover": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p3.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "It's Ok (Live)",
+    "neteaseArtistName": "董又霖, Ghost (王琳凯), ONER灵超, 黄明昊 (Justin), 郑艺彬, 李希侃, 毕雯珺, 林彦俊, 尤长靖, 林超泽",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:18:01.361Z"
   },
   {
     "id": "forever",
@@ -1636,19 +1562,18 @@ export const STAGES = [
         "artist": "偶像练习生"
       }
     ],
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/600x600bb.jpg",
-    "coverSm": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/dc/53/8adc5394-21a4-6bfa-e31a-70f5ca9688a1/4896010022110.jpg/200x200bb.jpg",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/36/0f/61360fb7-30f8-017a-589a-34e24a940170/mzaf_4880526970136526572.plus.aac.p.m4a",
-    "playSource": "itunes",
-    "itunesTrackId": "1851682605",
-    "trackViewUrl": "https://music.apple.com/cn/album/forever-live/1851682601?i=1851682605&uo=4",
-    "itunesTitle": "Forever (Live)",
-    "itunesArtistName": "董又霖, 钱正昊, 朱星杰, 小鬼, 秦奋, 蔡徐坤, 陈立农, 范丞丞, ONER靈超, 黄明昊, 郑艺彬, 朱正廷, 李希侃, 毕雯珺, 卜凡, 林彦俊, 王子异, 尤长靖, 林超泽 & 徐圣恩",
-    "matchScore": 80,
-    "matchedQuery": {
-      "term": "Forever",
-      "artist": "NINE PERCENT"
-    },
-    "updatedAt": "2026-09-01T09:23:34.841Z"
+    "neteaseId": "550136152",
+    "cover": "https://p4.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=600y600",
+    "coverSm": "https://p4.music.126.net/0fNqjjWb3srRgcsb0w7Qzg==/109951163170276615.jpg?param=200y200",
+    "previewUrl": "",
+    "playSource": "netease",
+    "itunesTrackId": "",
+    "trackViewUrl": "",
+    "itunesTitle": "",
+    "itunesArtistName": "",
+    "neteaseTitle": "Forever (Live)",
+    "neteaseArtistName": "董又霖, 钱正昊, 朱星杰, Ghost (王琳凯), 秦奋, 蔡徐坤, 陈立农, 范丞丞, ONER灵超, 黄明昊 (Justin), 郑艺彬, 朱正廷, 李希侃, 毕雯珺, 卜凡, 林彦俊, 王子异, 尤长靖, 林超泽, 徐圣恩",
+    "matchScore": 0,
+    "updatedAt": "2026-09-01T16:18:03.679Z"
   }
 ];
